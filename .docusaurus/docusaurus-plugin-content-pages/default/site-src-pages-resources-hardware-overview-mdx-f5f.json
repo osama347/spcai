@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/spcai/resources/hardware-overview",
+  "source": "@site/src/pages/resources/hardware-overview.mdx",
+  "title": "Hardware Overview",
+  "description": "Our members enjoy access to several resources, including:",
+  "frontMatter": {
+    "title": "Hardware Overview"
+  },
+  "unlisted": false
+}

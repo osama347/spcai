@@ -1,0 +1,23 @@
+{
+  "id": "hpc-tutorials/important-environment-variables/ld-preload",
+  "title": "LD_PRELOAD",
+  "description": "LD_PRELOAD is used by Linux to intercept functions in a program and replace their",
+  "source": "@site/docs/02-hpc-tutorials/03-important-environment-variables/ld-preload.md",
+  "sourceDirName": "02-hpc-tutorials/03-important-environment-variables",
+  "slug": "/hpc-tutorials/important-environment-variables/ld-preload",
+  "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/ld-preload",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "LD_LIBRARY_PATH",
+    "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/ld-library-path"
+  },
+  "next": {
+    "title": "LIBRARY_PATH",
+    "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/library-path"
+  }
+}

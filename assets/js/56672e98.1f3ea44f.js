@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgrc=self.webpackChunkgrc||[]).push([[7604],{2729:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/spcai/blog/tags/facebook","allTagsPath":"/spcai/blog/tags","count":1,"unlisted":false}')}}]);

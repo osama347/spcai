@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/spcai/jobs/software-engineer",
+  "source": "@site/src/pages/jobs/software-engineer.mdx",
+  "title": "Research Software Engineer",
+  "description": "The Gnosis Research Center (GRC) at Illinois Tech is seeking talented software engineers to be part of",
+  "frontMatter": {
+    "title": "Research Software Engineer"
+  },
+  "unlisted": false
+}

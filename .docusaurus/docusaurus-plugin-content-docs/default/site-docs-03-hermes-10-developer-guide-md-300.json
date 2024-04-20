@@ -1,0 +1,24 @@
+{
+  "id": "hermes/developer-guide",
+  "title": "Developer Guide",
+  "description": "Hermes can be complicated to debug due to its distributed and asynchronous",
+  "source": "@site/docs/03-hermes/10-developer-guide.md",
+  "sourceDirName": "03-hermes",
+  "slug": "/hermes/developer-guide",
+  "permalink": "/spcai/docs/hermes/developer-guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Containers",
+    "permalink": "/spcai/docs/hermes/containers"
+  },
+  "next": {
+    "title": "Doxygen",
+    "permalink": "/spcai/docs/hermes/doxygen"
+  }
+}

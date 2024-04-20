@@ -1,0 +1,16 @@
+{
+  "title": "Hermes",
+  "description": "Hermes is a middeware library that automatically manages buffering in heterogeneous storage environments.",
+  "slug": "/category/hermes",
+  "permalink": "/spcai/docs/category/hermes",
+  "navigation": {
+    "previous": {
+      "title": "Hello World",
+      "permalink": "/spcai/docs/hpc-tutorials/cpp-introduction/hello-world"
+    },
+    "next": {
+      "title": "Main Scenario",
+      "permalink": "/spcai/docs/hermes/main-scenario"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/spcai/research/patents",
+  "source": "@site/src/pages/research/patents.mdx",
+  "title": "Patents",
+  "description": "Label-based Data Representation I/O Process and System",
+  "frontMatter": {
+    "title": "Patents"
+  },
+  "unlisted": false
+}

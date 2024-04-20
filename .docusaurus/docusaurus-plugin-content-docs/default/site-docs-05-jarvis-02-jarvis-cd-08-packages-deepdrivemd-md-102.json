@@ -1,0 +1,23 @@
+{
+  "id": "jarvis/jarvis-cd/packages/deepdrivemd",
+  "title": "DeepDriveMD",
+  "description": "Dependencies",
+  "source": "@site/docs/05-jarvis/02-jarvis-cd/08-packages/deepdrivemd.md",
+  "sourceDirName": "05-jarvis/02-jarvis-cd/08-packages",
+  "slug": "/jarvis/jarvis-cd/packages/deepdrivemd",
+  "permalink": "/spcai/docs/jarvis/jarvis-cd/packages/deepdrivemd",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CM1",
+    "permalink": "/spcai/docs/jarvis/jarvis-cd/packages/cm1"
+  },
+  "next": {
+    "title": "Gadget2",
+    "permalink": "/spcai/docs/jarvis/jarvis-cd/packages/gadget2"
+  }
+}

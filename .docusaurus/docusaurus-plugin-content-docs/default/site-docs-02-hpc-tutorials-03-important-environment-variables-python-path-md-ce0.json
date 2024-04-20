@@ -1,0 +1,25 @@
+{
+  "id": "hpc-tutorials/important-environment-variables/pythonpath",
+  "title": "PYTHONPATH",
+  "description": "Python uses PYTHONPATH to specify directories where Python modules may be located.",
+  "source": "@site/docs/02-hpc-tutorials/03-important-environment-variables/python-path.md",
+  "sourceDirName": "02-hpc-tutorials/03-important-environment-variables",
+  "slug": "/hpc-tutorials/important-environment-variables/pythonpath",
+  "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/pythonpath",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "pythonpath"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PATH",
+    "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/path"
+  },
+  "next": {
+    "title": "C++ Introduction",
+    "permalink": "/spcai/docs/category/c-introduction"
+  }
+}

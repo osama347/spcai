@@ -1,0 +1,24 @@
+{
+  "id": "jarvis/jarvis-cd/index",
+  "title": "Introduction",
+  "description": "jarvis-cd is a unified platform for deploying various applications, including",
+  "source": "@site/docs/05-jarvis/02-jarvis-cd/01-index.md",
+  "sourceDirName": "05-jarvis/02-jarvis-cd",
+  "slug": "/jarvis/jarvis-cd/index",
+  "permalink": "/spcai/docs/jarvis/jarvis-cd/index",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hostfile",
+    "permalink": "/spcai/docs/jarvis/jarvis-util/hostfile"
+  },
+  "next": {
+    "title": "Getting Standard",
+    "permalink": "/spcai/docs/jarvis/jarvis-cd/getting-started"
+  }
+}

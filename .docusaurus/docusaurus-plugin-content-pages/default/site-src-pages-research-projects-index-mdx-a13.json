@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/spcai/research/projects/",
+  "source": "@site/src/pages/research/projects/index.mdx",
+  "title": "Projects",
+  "frontMatter": {
+    "title": "Projects",
+    "hide_table_of_contents": true
+  },
+  "unlisted": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "hpc-tutorials/important-environment-variables/cmake-prefix-path",
+  "title": "CMAKE_PREFIX_PATH",
+  "description": "CMAKEPREFIXPATH is used by CMake to identify the location of CMake package configurations.",
+  "source": "@site/docs/02-hpc-tutorials/03-important-environment-variables/cmake-prefix-path.md",
+  "sourceDirName": "02-hpc-tutorials/03-important-environment-variables",
+  "slug": "/hpc-tutorials/important-environment-variables/cmake-prefix-path",
+  "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/cmake-prefix-path",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CMAKE_MODULE_PATH",
+    "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/cmake-module-path"
+  },
+  "next": {
+    "title": "CPATH",
+    "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/cpath"
+  }
+}

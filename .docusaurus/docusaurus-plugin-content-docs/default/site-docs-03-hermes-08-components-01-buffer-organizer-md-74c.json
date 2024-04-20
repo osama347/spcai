@@ -1,0 +1,24 @@
+{
+  "id": "hermes/components/buffer-organizer",
+  "title": "Buffer Organizer",
+  "description": "The Buffer Organizer is the \"corrector\" half of our",
+  "source": "@site/docs/03-hermes/08-components/01-buffer-organizer.md",
+  "sourceDirName": "03-hermes/08-components",
+  "slug": "/hermes/components/buffer-organizer",
+  "permalink": "/spcai/docs/hermes/components/buffer-organizer",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Programming",
+    "permalink": "/spcai/docs/hermes/programming"
+  },
+  "next": {
+    "title": "Buffer Pool",
+    "permalink": "/spcai/docs/hermes/components/buffer-pool"
+  }
+}

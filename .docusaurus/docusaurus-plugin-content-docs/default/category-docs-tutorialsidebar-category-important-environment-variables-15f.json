@@ -1,0 +1,15 @@
+{
+  "title": "Important Environment Variables",
+  "slug": "/category/important-environment-variables",
+  "permalink": "/docs/category/important-environment-variables",
+  "navigation": {
+    "previous": {
+      "title": "Building From Scratch",
+      "permalink": "/docs/hpc-tutorials/installing-hpc-software/building-from-scratch"
+    },
+    "next": {
+      "title": "CMAKE_MODULE_PATH",
+      "permalink": "/docs/hpc-tutorials/important-environment-variables/cmake-module-path"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/spcai/research/projects/labios",
+  "source": "@site/src/pages/research/projects/labios.mdx",
+  "title": "LABIOS: A Distributed Label-Based I/O System",
+  "description": "Introduction",
+  "frontMatter": {
+    "title": "LABIOS: A Distributed Label-Based I/O System"
+  },
+  "unlisted": false
+}

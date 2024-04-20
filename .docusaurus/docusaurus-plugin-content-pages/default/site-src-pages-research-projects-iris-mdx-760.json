@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/spcai/research/projects/iris",
+  "source": "@site/src/pages/research/projects/iris.mdx",
+  "title": "IRIS: I/O Redirection Via Integrated Storage",
+  "description": "Various storage solutions exist and require specialized APIs and data models in order to use, which binds developers,",
+  "frontMatter": {
+    "title": "IRIS: I/O Redirection Via Integrated Storage"
+  },
+  "unlisted": false
+}

@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/spcai/research/projects/hermes",
+  "source": "@site/src/pages/research/projects/hermes.mdx",
+  "title": "Hermes: Extending the HDF Library to Support Intelligent I/O Buffering for Deep Memory and Storage Hierarchy System",
+  "description": "To reduce the I/O bottleneck, complex storage hierarchies have been introduced. However, managing this complexity should not",
+  "frontMatter": {
+    "title": "Hermes: Extending the HDF Library to Support Intelligent I/O Buffering for Deep Memory and Storage Hierarchy System"
+  },
+  "unlisted": false
+}

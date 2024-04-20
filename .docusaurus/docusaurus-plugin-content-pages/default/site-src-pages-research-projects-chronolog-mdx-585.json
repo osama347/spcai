@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/spcai/research/projects/chronolog",
+  "source": "@site/src/pages/research/projects/chronolog.mdx",
+  "title": "Chronolog: A High-Performance Storage Infrastructure for Activity and Log Workloads",
+  "description": "HPC applications generate more data than storage systems can handle, and it is becoming increasingly important to store",
+  "frontMatter": {
+    "title": "Chronolog: A High-Performance Storage Infrastructure for Activity and Log Workloads"
+  },
+  "unlisted": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": "jarvis/jarvis-cd/future-work",
+  "title": "Future Work",
+  "description": "1. What if we aren't using SSH?",
+  "source": "@site/docs/05-jarvis/02-jarvis-cd/11-future-work.md",
+  "sourceDirName": "05-jarvis/02-jarvis-cd",
+  "slug": "/jarvis/jarvis-cd/future-work",
+  "permalink": "/spcai/docs/jarvis/jarvis-cd/future-work",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Virtualization",
+    "permalink": "/spcai/docs/jarvis/jarvis-cd/virtualization"
+  },
+  "next": {
+    "title": "Ares Research Cluster",
+    "permalink": "/spcai/docs/category/ares-research-cluster"
+  }
+}

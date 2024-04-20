@@ -1,0 +1,24 @@
+{
+  "id": "hpc-tutorials/linux-introduction/using-a-terminal",
+  "title": "Basics of using a Terminal",
+  "description": "In this section, we will use Ubuntu 22.04 as our Linux distro. First, we will discuss the basic aspects of using a Linux terminal.",
+  "source": "@site/docs/02-hpc-tutorials/01-linux-introduction/02-using-a-terminal.md",
+  "sourceDirName": "02-hpc-tutorials/01-linux-introduction",
+  "slug": "/hpc-tutorials/linux-introduction/using-a-terminal",
+  "permalink": "/spcai/docs/hpc-tutorials/linux-introduction/using-a-terminal",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Choosing an OS",
+    "permalink": "/spcai/docs/hpc-tutorials/linux-introduction/choosing-an-os"
+  },
+  "next": {
+    "title": "SSH",
+    "permalink": "/spcai/docs/hpc-tutorials/linux-introduction/ssh"
+  }
+}

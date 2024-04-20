@@ -1,0 +1,24 @@
+{
+  "id": "jarvis/jarvis-util/argument-parsing",
+  "title": "Argument Parsing",
+  "description": "We provide a custom argument parsing implementation. The main difference between",
+  "source": "@site/docs/05-jarvis/01-jarvis-util/04-argument-parsing.md",
+  "sourceDirName": "05-jarvis/01-jarvis-util",
+  "slug": "/jarvis/jarvis-util/argument-parsing",
+  "permalink": "/spcai/docs/jarvis/jarvis-util/argument-parsing",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Built-in Wrappers",
+    "permalink": "/spcai/docs/jarvis/jarvis-util/builtin-wrappers"
+  },
+  "next": {
+    "title": "Hostfile",
+    "permalink": "/spcai/docs/jarvis/jarvis-util/hostfile"
+  }
+}

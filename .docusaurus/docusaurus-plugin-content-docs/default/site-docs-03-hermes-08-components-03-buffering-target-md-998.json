@@ -1,0 +1,24 @@
+{
+  "id": "hermes/components/buffering-target",
+  "title": "Buffering Target",
+  "description": "A buffering target represents a logical target of data placement, i.e.,",
+  "source": "@site/docs/03-hermes/08-components/03-buffering-target.md",
+  "sourceDirName": "03-hermes/08-components",
+  "slug": "/hermes/components/buffering-target",
+  "permalink": "/spcai/docs/hermes/components/buffering-target",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Buffer Pool",
+    "permalink": "/spcai/docs/hermes/components/buffer-pool"
+  },
+  "next": {
+    "title": "Data Placement",
+    "permalink": "/spcai/docs/hermes/components/data-placement"
+  }
+}

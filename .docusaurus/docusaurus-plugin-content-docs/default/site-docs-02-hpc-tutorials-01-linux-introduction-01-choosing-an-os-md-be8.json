@@ -1,0 +1,24 @@
+{
+  "id": "hpc-tutorials/linux-introduction/choosing-an-os",
+  "title": "Choosing an OS",
+  "description": "Which distro?",
+  "source": "@site/docs/02-hpc-tutorials/01-linux-introduction/01-choosing-an-os.md",
+  "sourceDirName": "02-hpc-tutorials/01-linux-introduction",
+  "slug": "/hpc-tutorials/linux-introduction/choosing-an-os",
+  "permalink": "/spcai/docs/hpc-tutorials/linux-introduction/choosing-an-os",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Linux Introduction",
+    "permalink": "/spcai/docs/category/linux-introduction"
+  },
+  "next": {
+    "title": "Basics of using a Terminal",
+    "permalink": "/spcai/docs/hpc-tutorials/linux-introduction/using-a-terminal"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "hpc-tutorials/important-environment-variables/library-path",
+  "title": "LIBRARY_PATH",
+  "description": "GCC and Clang search each path in LIBRARY_PATH for shared objects and archives.",
+  "source": "@site/docs/02-hpc-tutorials/03-important-environment-variables/library-path.md",
+  "sourceDirName": "02-hpc-tutorials/03-important-environment-variables",
+  "slug": "/hpc-tutorials/important-environment-variables/library-path",
+  "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/library-path",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "LD_PRELOAD",
+    "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/ld-preload"
+  },
+  "next": {
+    "title": "PATH",
+    "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/path"
+  }
+}

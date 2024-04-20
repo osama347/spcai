@@ -1,0 +1,23 @@
+{
+  "id": "hpc-tutorials/important-environment-variables/java-home",
+  "title": "JAVA_HOME",
+  "description": "JAVA_HOME is frequently used as the environment variable to specify the current java installation.",
+  "source": "@site/docs/02-hpc-tutorials/03-important-environment-variables/java-home.md",
+  "sourceDirName": "02-hpc-tutorials/03-important-environment-variables",
+  "slug": "/hpc-tutorials/important-environment-variables/java-home",
+  "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/java-home",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CPATH",
+    "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/cpath"
+  },
+  "next": {
+    "title": "LD_LIBRARY_PATH",
+    "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/ld-library-path"
+  }
+}

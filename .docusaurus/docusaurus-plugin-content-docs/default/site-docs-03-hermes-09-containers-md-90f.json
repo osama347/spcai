@@ -1,0 +1,24 @@
+{
+  "id": "hermes/containers",
+  "title": "Containers",
+  "description": "Dockerfiles",
+  "source": "@site/docs/03-hermes/09-containers.md",
+  "sourceDirName": "03-hermes",
+  "slug": "/hermes/containers",
+  "permalink": "/spcai/docs/hermes/containers",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Topology",
+    "permalink": "/spcai/docs/hermes/components/topology"
+  },
+  "next": {
+    "title": "Developer Guide",
+    "permalink": "/spcai/docs/hermes/developer-guide"
+  }
+}

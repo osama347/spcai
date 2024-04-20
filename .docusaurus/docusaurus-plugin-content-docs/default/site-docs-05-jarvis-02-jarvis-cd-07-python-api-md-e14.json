@@ -1,0 +1,24 @@
+{
+  "id": "jarvis/jarvis-cd/python-api",
+  "title": "Python API",
+  "description": "This guide documents how to use Jarvis within a Python script. To this point,",
+  "source": "@site/docs/05-jarvis/02-jarvis-cd/07-python-api.md",
+  "sourceDirName": "05-jarvis/02-jarvis-cd",
+  "slug": "/jarvis/jarvis-cd/python-api",
+  "permalink": "/spcai/docs/jarvis/jarvis-cd/python-api",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Building a Package",
+    "permalink": "/spcai/docs/jarvis/jarvis-cd/building-package"
+  },
+  "next": {
+    "title": "CM1",
+    "permalink": "/spcai/docs/jarvis/jarvis-cd/packages/cm1"
+  }
+}

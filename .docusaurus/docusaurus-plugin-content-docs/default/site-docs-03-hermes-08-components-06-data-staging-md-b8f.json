@@ -1,0 +1,24 @@
+{
+  "id": "hermes/components/data-staging",
+  "title": "Data Staging",
+  "description": "Stage-in is the ability to load external datasets into Hermes.",
+  "source": "@site/docs/03-hermes/08-components/06-data-staging.md",
+  "sourceDirName": "03-hermes/08-components",
+  "slug": "/hermes/components/data-staging",
+  "permalink": "/spcai/docs/hermes/components/data-staging",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Placement",
+    "permalink": "/spcai/docs/hermes/components/data-placement"
+  },
+  "next": {
+    "title": "Runtime",
+    "permalink": "/spcai/docs/hermes/components/runtime"
+  }
+}

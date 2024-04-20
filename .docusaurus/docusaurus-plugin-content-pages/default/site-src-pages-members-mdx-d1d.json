@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/spcai/members",
+  "source": "@site/src/pages/members.mdx",
+  "title": "Members",
+  "description": "Faculty",
+  "frontMatter": {
+    "title": "Members"
+  },
+  "unlisted": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": "jarvis/jarvis-util/hostfile",
+  "title": "Hostfile",
+  "description": "Hostfiles contain a set of machines.",
+  "source": "@site/docs/05-jarvis/01-jarvis-util/05-hostfile.md",
+  "sourceDirName": "05-jarvis/01-jarvis-util",
+  "slug": "/jarvis/jarvis-util/hostfile",
+  "permalink": "/spcai/docs/jarvis/jarvis-util/hostfile",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Argument Parsing",
+    "permalink": "/spcai/docs/jarvis/jarvis-util/argument-parsing"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/spcai/docs/jarvis/jarvis-cd/index"
+  }
+}

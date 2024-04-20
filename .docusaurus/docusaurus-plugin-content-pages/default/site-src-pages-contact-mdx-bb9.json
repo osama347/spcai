@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/spcai/contact",
+  "source": "@site/src/pages/contact.mdx",
+  "title": "Contact",
+  "description": "Gnosis Research Center",
+  "frontMatter": {
+    "title": "Contact"
+  },
+  "unlisted": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": "jarvis/jarvis-util/builtin-wrappers",
+  "title": "Built-in Wrappers",
+  "description": "We have various wrappers to support much shell functionality. At this time, these have been built and tested for Linux. These codes inherit from the Exec class shown in Section 1. This way, they can be executed locally or in parallel.",
+  "source": "@site/docs/05-jarvis/01-jarvis-util/03-builtin-wrappers.md",
+  "sourceDirName": "05-jarvis/01-jarvis-util",
+  "slug": "/jarvis/jarvis-util/builtin-wrappers",
+  "permalink": "/spcai/docs/jarvis/jarvis-util/builtin-wrappers",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Program Execution",
+    "permalink": "/spcai/docs/jarvis/jarvis-util/program-execution"
+  },
+  "next": {
+    "title": "Argument Parsing",
+    "permalink": "/spcai/docs/jarvis/jarvis-util/argument-parsing"
+  }
+}

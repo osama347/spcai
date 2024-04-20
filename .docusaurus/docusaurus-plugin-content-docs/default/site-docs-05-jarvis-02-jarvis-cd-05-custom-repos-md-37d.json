@@ -1,0 +1,24 @@
+{
+  "id": "jarvis/jarvis-cd/custom-repos",
+  "title": "Custom Repos",
+  "description": "There are cases where your organization may have packages used internally and",
+  "source": "@site/docs/05-jarvis/02-jarvis-cd/05-custom-repos.md",
+  "sourceDirName": "05-jarvis/02-jarvis-cd",
+  "slug": "/jarvis/jarvis-cd/custom-repos",
+  "permalink": "/spcai/docs/jarvis/jarvis-cd/custom-repos",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Design & Motivation",
+    "permalink": "/spcai/docs/jarvis/jarvis-cd/design-motivation"
+  },
+  "next": {
+    "title": "Building a Package",
+    "permalink": "/spcai/docs/jarvis/jarvis-cd/building-package"
+  }
+}

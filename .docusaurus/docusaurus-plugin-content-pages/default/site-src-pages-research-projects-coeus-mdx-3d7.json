@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/spcai/research/projects/coeus",
+  "source": "@site/src/pages/research/projects/coeus.mdx",
+  "title": "Coeus: Accelerating Scientific Insights Using Enriched Metadata",
+  "description": "In collaboration with Sandia and Oak Ridge National Laboratories, coeus investigate the use of an active storage system",
+  "frontMatter": {
+    "title": "Coeus: Accelerating Scientific Insights Using Enriched Metadata"
+  },
+  "unlisted": false
+}

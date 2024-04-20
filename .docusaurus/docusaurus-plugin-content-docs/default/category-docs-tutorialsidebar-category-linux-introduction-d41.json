@@ -1,0 +1,16 @@
+{
+  "title": "Linux Introduction",
+  "description": "All Top500 supercomputers and the majority of cloud systems run Linux. This tutorial will cover the basic aspects of using Linux.",
+  "slug": "/category/linux-introduction",
+  "permalink": "/docs/category/linux-introduction",
+  "navigation": {
+    "previous": {
+      "title": "Welcome",
+      "permalink": "/docs/index"
+    },
+    "next": {
+      "title": "Choosing an OS",
+      "permalink": "/docs/hpc-tutorials/linux-introduction/choosing-an-os"
+    }
+  }
+}

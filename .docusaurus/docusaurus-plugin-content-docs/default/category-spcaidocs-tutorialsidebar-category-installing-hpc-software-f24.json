@@ -1,0 +1,15 @@
+{
+  "title": "Installing HPC Software",
+  "slug": "/category/installing-hpc-software",
+  "permalink": "/spcai/docs/category/installing-hpc-software",
+  "navigation": {
+    "previous": {
+      "title": "SSH",
+      "permalink": "/spcai/docs/hpc-tutorials/linux-introduction/ssh"
+    },
+    "next": {
+      "title": "Building With Spack",
+      "permalink": "/spcai/docs/hpc-tutorials/installing-hpc-software/building-with-spack"
+    }
+  }
+}

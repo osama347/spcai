@@ -1,0 +1,26 @@
+{
+  "id": "ares/ares-user-guide",
+  "title": "User Guide",
+  "description": "TL;DR:",
+  "source": "@site/docs/06-ares/01-ares-user-guide.mdx",
+  "sourceDirName": "06-ares",
+  "slug": "/ares/ares-user-guide",
+  "permalink": "/spcai/docs/ares/ares-user-guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "User Guide"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ares Research Cluster",
+    "permalink": "/spcai/docs/category/ares-research-cluster"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/spcai/docs/ares/faq"
+  }
+}

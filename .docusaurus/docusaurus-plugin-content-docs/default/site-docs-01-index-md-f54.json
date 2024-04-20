@@ -1,0 +1,22 @@
+{
+  "id": "index",
+  "title": "Welcome",
+  "description": "Welcome to the Gnosis Research Center Knowledge Base, your source for insightful information on a diverse range of topics.",
+  "source": "@site/docs/01-index.md",
+  "sourceDirName": ".",
+  "slug": "/index",
+  "permalink": "/spcai/docs/index",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Linux Introduction",
+    "permalink": "/spcai/docs/category/linux-introduction"
+  }
+}

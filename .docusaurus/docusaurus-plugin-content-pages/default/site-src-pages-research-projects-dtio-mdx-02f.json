@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/spcai/research/projects/dtio",
+  "source": "@site/src/pages/research/projects/dtio.mdx",
+  "title": "DTIO: A Data Task I/O Runtime",
+  "description": "In partnership with Argonne National Laboratory, DTIO investigates the use of a task framework for unifying complex I/O stacks and providing features such as resilience, fault-tolerance, and task replay.",
+  "frontMatter": {
+    "title": "DTIO: A Data Task I/O Runtime"
+  },
+  "unlisted": false
+}

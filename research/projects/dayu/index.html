@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="mdx-wrapper mdx-page plugin-pages plugin-id-default" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.1.0">
+<title data-rh="true">DaYu: Optimizing Workflow Performance by Elucidating Semantic Data Flow | Gnosis Research Center</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://osama347.github.io/spcai/img/social-card.png"><meta data-rh="true" name="twitter:image" content="https://osama347.github.io/spcai/img/social-card.png"><meta data-rh="true" property="og:url" content="https://osama347.github.io/spcai/research/projects/dayu"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" name="keywords" content="high-performance computing (hpc), memory and storage systems, scalable software systems, data management, data-centric systems, research center, scalable system software, technology research, computational research, innovative technology, scientific research"><meta data-rh="true" property="og:title" content="DaYu: Optimizing Workflow Performance by Elucidating Semantic Data Flow | Gnosis Research Center"><meta data-rh="true" name="description" content="Distributed scientific workflows nowadays face challenges in data movement through storage systems."><meta data-rh="true" property="og:description" content="Distributed scientific workflows nowadays face challenges in data movement through storage systems."><link data-rh="true" rel="icon" href="/spcai/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://osama347.github.io/spcai/research/projects/dayu"><link data-rh="true" rel="alternate" href="https://osama347.github.io/spcai/research/projects/dayu" hreflang="en"><link data-rh="true" rel="alternate" href="https://osama347.github.io/spcai/research/projects/dayu" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/spcai/blog/rss.xml" title="Gnosis Research Center RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/spcai/blog/atom.xml" title="Gnosis Research Center Atom Feed">
+
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9SXDPLSLB2"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-9SXDPLSLB2",{})</script><link rel="stylesheet" href="/spcai/assets/css/styles.aabcbf09.css">
+<script src="/spcai/assets/js/runtime~main.7399227e.js" defer="defer"></script>
+<script src="/spcai/assets/js/main.a4d5b2b2.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top navbar--dark"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/spcai/"><div class="navbar__logo"><img src="/spcai/img/logo.png" alt="Gnosis Research Center" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/spcai/img/logo.png" alt="Gnosis Research Center" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Gnosis Research Center</b></a><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Gnosis</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/spcai/about">About</a></li><li><a class="dropdown__link" href="/spcai/members">Members</a></li><li><a class="dropdown__link" href="/spcai/network">Network</a></li><li><a class="dropdown__link" href="/spcai/contact">Contact</a></li></ul></div><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Research</a><ul class="dropdown__menu"><li><a aria-current="page" class="dropdown__link dropdown__link--active" href="/spcai/research/projects">Projects</a></li><li><a class="dropdown__link" href="/spcai/research/patents">Patents</a></li><li><a class="dropdown__link" href="/spcai/resources/hardware-overview">Hardware Overview</a></li></ul></div><a class="navbar__item navbar__link" href="/spcai/publications">Publications</a></div><div class="navbar__items navbar__items--right"><a class="navbar__item navbar__link" href="/spcai/docs/index">Tutorials</a><a href="https://github.com/grc-iit" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS darkNavbarColorModeToggle_X3D1" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><main class="container container--fluid margin-vert--lg"><div class="row mdxPageWrapper_j9I6"><div class="col col--8"><article><p><img src="/spcai/assets/images/dayu-logo2-24f251d13254d9efed5f23ea01af9f75.png" width="200"></p>
+<h1>DaYu: Optimizing Workflow Performance by Elucidating Semantic Data Flow</h1>
+<div class="margin-bottom--md" style="line-height:1"><span class="badge badge--primary margin-horiz--xs">GRC-LED</span><span class="badge badge--secondary margin-horiz--xs">OPEN SOURCE</span></div>
+<p>Distributed scientific workflows nowadays face challenges in data movement through storage systems.
+DaYu employs careful runtime measurement, maps domain semantics to low-level I/O operations, and utilizes
+effective visualization and analysis of semantic data flows to understand how semantic datasets move through storage.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
+<p>High-Performance Computing (HPC) workflows are evolving with increasing data intensity.
+These workflows are growing in complexity, featuring multiple stages encompassing simulation, analysis,
+and AI applications with diverse data demands.
+Data transfer between HPC tasks currently relies on shared storage layers like Parallel File System (PFS)
+and Burst Buffer, which can suffer from slow access and I/O contention.</p>
+<p>Enhancing data movement within workflows poses a significant challenge.
+Strategic task scheduling, data caching, and staging have emerged as
+effective means to boost I/O performance by reducing computation wait times.
+With more I/O expertise, one can also utilize and fine-tune various I/O
+libraries, middleware, and file system configurations. The tuning often
+requires iterative testing and are limited to specific workload, whille other
+workloads still experiencing high latency with shared storage.</p>
+<p>Understanding I/O behavior is imperative when deciding on the correct strategies to enhance data access.
+Details about data access within workflow tasks can effectively guide improvements in I/O and system configuration.
+Existing application I/O profiling tools lack the ability to provide analyze of data access behavior across
+tasks in a workflow and capture semantic
+information related to its low-level I/O requests. Such tools would
+be valuable for providing more straightforward insights into
+data access patterns across multiple tasks. By filling this gap, we
+can develop better methods for managing data movement and
+optimizing the overall workflow.</p>
+<p><strong>In this work, we unveil a fresh workflow optimization perspective with</strong></p>
+<ul>
+<li>careful runtime measurement of data access metrics,</li>
+<li>recovering the mapping of domain semantics to low-level I/O operations, and</li>
+<li>effective visualization and analysis of semantic data flows for the complete workflow.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="background">Background<a href="#background" class="hash-link" aria-label="Direct link to Background" title="Direct link to Background">​</a></h2>
+<center><p><img src="/spcai/assets/images/hdf5_structure-15509d44791e320843dcca25085602c3.png" width="500"></p><p><strong>HDF5 File Structure Overview</strong></p></center>
+<p>HDF5 is a widely used storage format and I/O libraries in scientific applications</p>
+<ul>
+<li>Hierarchical structure of groups, datasets, and attributes</li>
+<li>Allows enriched metadata that describes different data characteristics</li>
+<li>Extensive API enabling tracking of its high-level data object and the low-level I/O</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="approach">Approach<a href="#approach" class="hash-link" aria-label="Direct link to Approach" title="Direct link to Approach">​</a></h2>
+<p>The project&#x27;s major challenges include mapping data semantics to I/O access,
+tracking data flow across tasks, and visualizing coordination and time.
+Our approach consists of three steps:</p>
+<center><p><img src="/spcai/assets/images/Graph-Overview-cad5b28b88140da124417cb4e2f32658.png" width="800"></p></center>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="case-study-i-storm-tracking-workflow">Case Study I: Storm Tracking Workflow<a href="#case-study-i-storm-tracking-workflow" class="hash-link" aria-label="Direct link to Case Study I: Storm Tracking Workflow" title="Direct link to Case Study I: Storm Tracking Workflow">​</a></h2>
+<p><strong>PyFLEXTRKR</strong> uses a flexible atmospheric feature tracking software package
+for weather research and forecast datasets.</p>
+<center><p><img src="/spcai/assets/images/wrf_pyflextrkr_workflow-341a7b60a5413ec32baf02784773ea17.png" width="800"></p><p><strong>Six-Stages Pipeline PyFLEXTRKR Workflow.</strong></p></center>
+<p><strong>Observations</strong></p>
+<ul>
+<li><strong>Inter-task Data Reuse</strong>: task 2, 4, and 6 uses files produced by the first task.</li>
+<li><strong>Time-dependents inputs</strong>: some input files are required at different time point.</li>
+<li><strong>Data None-Used</strong>: file produced by task 4 is not used by any later task.</li>
+</ul>
+<p><strong>Opportunities</strong></p>
+<ul>
+<li>Tasks that use common datasets can be scheduled on the same resource.</li>
+<li>Input can be stage-in at different time points of the workflow.</li>
+<li>not used by later tasks can be immediately offloaded to free up memory.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="case-study-ii-deepdrivemd-workflow">Case Study II: DeepDriveMD Workflow<a href="#case-study-ii-deepdrivemd-workflow" class="hash-link" aria-label="Direct link to Case Study II: DeepDriveMD Workflow" title="Direct link to Case Study II: DeepDriveMD Workflow">​</a></h2>
+<p><strong>DeepDriveMD</strong> (DDMD) is a deep learning-driven molecular dynamics
+simulations workflow for protein folding.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="workflow-task-file-dag">Workflow Task-File DAG<a href="#workflow-task-file-dag" class="hash-link" aria-label="Direct link to Workflow Task-File DAG" title="Direct link to Workflow Task-File DAG">​</a></h3>
+<center><p><img src="/spcai/assets/images/DDMD_workflow-boxed-e0a1869e02a03a8d82f1c60966c5c7fd.png" width="800"></p><p><strong>Four-Stages Pipeline Workflow (simulation, aggregate, train, and inference).</strong></p></center>
+<p><strong>Observation</strong>: No data dependencies between <code>Train</code> and <code>Inference</code> tasks,
+as we can see that both of them reads input aggregated.h5, and output different
+sets of files that are not used by each other.</p>
+<p><strong>Opportunity</strong>: <code>Inference</code> and <code>Train</code> tasks can be parallelized
+without violating data dependency correctness.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="semantic-dag-1">Semantic DAG 1<a href="#semantic-dag-1" class="hash-link" aria-label="Direct link to Semantic DAG 1" title="Direct link to Semantic DAG 1">​</a></h3>
+<center><p><img src="/spcai/assets/images/DDMD_aggregate_detail-1a5279f54d77cc151d48d661c0c0ed44.png" width="800"></p><p><strong>Aggregate Stage Close-Up Semantic DAG with Two Datasets.</strong></p></center>
+<p><strong>Observation</strong>: The <code>Aggregate</code> task alters the data layout of large datasets without changing the content.
+Over 95% of the data volume is from the <code>contact_map</code> dataset, while only small amount is from the
+<code>point_cloud</code> dataset.</p>
+<p><strong>Opportunity</strong>: Removing the <code>Aggregate</code> task does not compromise the correctness of the program.
+We have <code>Train</code> and <code>Inference</code> task reading input directly from simulation, this can reduce unnecessary
+data manipulation and movement and improve data access parallelism.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="semantic-dag-2">Semantic DAG 2<a href="#semantic-dag-2" class="hash-link" aria-label="Direct link to Semantic DAG 2" title="Direct link to Semantic DAG 2">​</a></h3>
+<center><p><img src="/spcai/assets/images/DDMD_train_dset-a3d6ccda7c6e8e4052500a9d4b182a24.png" width="800"></p><p><strong>DDMD Train Stage Read File I/O Performance Detail.</strong></p></center>
+<p><strong>Observation</strong>: The <code>Train</code> task is not accessing all the datasets present in the <code>aggregated.h5</code> file.
+In fact, it is not using the largest datasets which takes up 95% of the file space (from previous observation).</p>
+<p><strong>Opportunities</strong></p>
+<ul>
+<li>Removing the <code>Aggregate</code> task can minimize unnecessary data transfers.</li>
+<li>Caching a subset of the <code>aggregated.h5</code> file does not violate task-data dependencies.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>Nowadays in HPC applications, there is a lack of tools to understand
+data flow between tasks in a workflow. This study introduced Semantic DAGs,
+an enriched version of traditional DAGs. Precise measurements allowed us
+to reconstruct mappings between tasks and meaningful data objects down to
+I/O with file addresses. With visualization of task-to-data mapping and
+extracted performance statistics, we can gain new insight into workflow
+optimization opportunities.</p>
+<p>Our future work will focus on enhancing the analysis method and creating
+a generalized approach for customized data placement in workflows.
+We aim to achieve this through I/O buffering middleware and apply our
+analysis for effective I/O system tuning to meet workload requirements.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="members">Members<a href="#members" class="hash-link" aria-label="Direct link to Members" title="Direct link to Members">​</a></h2>
+<ul>
+<li>Meng Tang<!-- -->
+<ul>
+<li>PhD Student @ GRC</li>
+<li>Illinois Institute of Technology</li>
+<li><a href="mailto:mtang11@hawk.iit.edu" target="_blank" rel="noopener noreferrer">Contact</a></li>
+</ul>
+</li>
+<li><a href="https://www.pnnl.gov/people/nathan-tallent" target="_blank" rel="noopener noreferrer">Dr. Nathan R. Tallent</a>
+<ul>
+<li>Co-Principal Investigator</li>
+<li>Pacific Northwest National Laboratory (PNNL)</li>
+<li><a href="mailto:nathan.tallent@pnnl.gov" target="_blank" rel="noopener noreferrer">Contact</a></li>
+</ul>
+</li>
+<li><a href="https://www.iit.edu/directory/people/antonios-kougkas" target="_blank" rel="noopener noreferrer">Dr. Anthony Kougkas</a>
+<ul>
+<li>Co-Principal Investigator</li>
+<li>Illinois Institute of Technology</li>
+<li><a href="mailto:akougkas@iit.edu" target="_blank" rel="noopener noreferrer">Contact</a></li>
+</ul>
+</li>
+<li><a href="https://www.iit.edu/directory/people/xian-he-sun" target="_blank" rel="noopener noreferrer">Dr. Xian-He Sun</a>
+<ul>
+<li>Principal Investigator</li>
+<li>Illinois Institute of Technology</li>
+<li><a href="mailto:sun@iit.edu" target="_blank" rel="noopener noreferrer">Contact</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sponsor">Sponsor<a href="#sponsor" class="hash-link" aria-label="Direct link to Sponsor" title="Direct link to Sponsor">​</a></h2>
+<p><img src="/spcai/assets/images/doe-822c0ac8103843a4445244cc56c3f792.png" width="100"></p>
+<p>This research is supported by the U.S. Department of Energy (DOE) through
+the Office of Advanced Scientific Computing Research&#x27;s
+&quot;Orchestration for Distributed &amp; Data-Intensive Scientific Exploration.&quot;</p>
+<p><img src="/spcai/assets/images/nsf-fb7efe9286a9b499c5907d82af3e70fd.png" width="100"></p>
+<p>This research is also based upon work supported by the
+National Science Foundation under Grant no.
+NSF CSSI-2104013.</p></article></div><div class="col col--2"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#introduction" class="table-of-contents__link toc-highlight">Introduction</a></li><li><a href="#background" class="table-of-contents__link toc-highlight">Background</a></li><li><a href="#approach" class="table-of-contents__link toc-highlight">Approach</a></li><li><a href="#case-study-i-storm-tracking-workflow" class="table-of-contents__link toc-highlight">Case Study I: Storm Tracking Workflow</a></li><li><a href="#case-study-ii-deepdrivemd-workflow" class="table-of-contents__link toc-highlight">Case Study II: DeepDriveMD Workflow</a><ul><li><a href="#workflow-task-file-dag" class="table-of-contents__link toc-highlight">Workflow Task-File DAG</a></li><li><a href="#semantic-dag-1" class="table-of-contents__link toc-highlight">Semantic DAG 1</a></li><li><a href="#semantic-dag-2" class="table-of-contents__link toc-highlight">Semantic DAG 2</a></li></ul></li><li><a href="#conclusion" class="table-of-contents__link toc-highlight">Conclusion</a></li><li><a href="#members" class="table-of-contents__link toc-highlight">Members</a></li><li><a href="#sponsor" class="table-of-contents__link toc-highlight">Sponsor</a></li></ul></div></div></div></main></div><footer class="footer"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Gnosis Research Center</div><ul class="footer__items clean-list"><li class="footer__item">
+                  <p>
+                    Stuart Building <br>
+                    Room 112i and 010 <br>
+                    10 W. 31st Street <br>
+                    Chicago, Illinois 60616
+                  </p>
+                </li><li class="footer__item">
+                  <p>
+                    Email: <a href="mailto:grc@iit.edu" target="_blank" rel="noopener noreferrer">grc@iit.edu</a> <br>
+                    Phone: <a href="tel:3125676885" target="_blank" rel="noopener noreferrer">+1 312 567 6885</a>
+                  </p>
+                </li></ul></div><div class="col footer__col"><div class="footer__title">Featured Projects</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/spcai/research/projects/chronolog">ChronoLog</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/research/projects/labios">Labios</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/research/projects/coeus">Coeus</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/research/projects/hermes">Hermes</a></li></ul></div><div class="col footer__col"><div class="footer__title">Tutorials</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/spcai/docs/category/linux-introduction">Linux Introduction</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/docs/category/installing-hpc-software">Installing HPC Software</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/docs/category/important-environment-variables">Important Environment Variables</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/docs/category/c-introduction">C++ Introduction</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/docs/category/ares-research-cluster">Ares User Guide</a></li></ul></div><div class="col footer__col"><div class="footer__title">Links</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/grc-iit" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.linkedin.com/company/gnosis-research-center/" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC LinkedIn<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://twitter.com/grc_iit" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC X<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.youtube.com/channel/UCNtEyAt4_ckpIbX-gSv8sww" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC YouTube<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.iit.edu/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Illinois Tech<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="http://cs.iit.edu/~scs/" target="_blank" rel="noopener noreferrer" class="footer__link-item">SCS Lab<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 Gnosis Research Center (GRC).</div></div></div></footer></div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "id": "hermes/components/runtime",
+  "title": "Runtime",
+  "description": "Hermes is built as a plugin to the Hermes Runtime, a distributed task processing framework",
+  "source": "@site/docs/03-hermes/08-components/07-runtime.md",
+  "sourceDirName": "03-hermes/08-components",
+  "slug": "/hermes/components/runtime",
+  "permalink": "/spcai/docs/hermes/components/runtime",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Staging",
+    "permalink": "/spcai/docs/hermes/components/data-staging"
+  },
+  "next": {
+    "title": "Distributed Metadata",
+    "permalink": "/spcai/docs/hermes/components/distributed-metadata"
+  }
+}

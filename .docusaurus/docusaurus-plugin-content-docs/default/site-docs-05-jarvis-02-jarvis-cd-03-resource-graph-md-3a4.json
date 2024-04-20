@@ -1,0 +1,24 @@
+{
+  "id": "jarvis/jarvis-cd/resource-graph",
+  "title": "Resource Graph",
+  "description": "A resource graph contains a snapshot of the state of a cluster. This",
+  "source": "@site/docs/05-jarvis/02-jarvis-cd/03-resource-graph.md",
+  "sourceDirName": "05-jarvis/02-jarvis-cd",
+  "slug": "/jarvis/jarvis-cd/resource-graph",
+  "permalink": "/spcai/docs/jarvis/jarvis-cd/resource-graph",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Standard",
+    "permalink": "/spcai/docs/jarvis/jarvis-cd/getting-started"
+  },
+  "next": {
+    "title": "Design & Motivation",
+    "permalink": "/spcai/docs/jarvis/jarvis-cd/design-motivation"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "jarvis/jarvis-cd/getting-started",
+  "title": "Getting Standard",
+  "description": "In this section, we will discuss the jarvis command line interface.",
+  "source": "@site/docs/05-jarvis/02-jarvis-cd/02-getting-started.md",
+  "sourceDirName": "05-jarvis/02-jarvis-cd",
+  "slug": "/jarvis/jarvis-cd/getting-started",
+  "permalink": "/spcai/docs/jarvis/jarvis-cd/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/spcai/docs/jarvis/jarvis-cd/index"
+  },
+  "next": {
+    "title": "Resource Graph",
+    "permalink": "/spcai/docs/jarvis/jarvis-cd/resource-graph"
+  }
+}

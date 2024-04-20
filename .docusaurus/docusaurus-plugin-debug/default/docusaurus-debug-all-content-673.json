@@ -1,0 +1,2552 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\FAST COMPUTER\\Desktop\\Noman\\grc-iit.github.io\\docusaurus.sidebars.js",
+          "contentPath": "C:\\Users\\FAST COMPUTER\\Desktop\\Noman\\grc-iit.github.io\\docs",
+          "contentPathLocalized": "C:\\Users\\FAST COMPUTER\\Desktop\\Noman\\grc-iit.github.io\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "id": "ares/ares-user-guide",
+              "title": "User Guide",
+              "description": "TL;DR:",
+              "source": "@site/docs/06-ares/01-ares-user-guide.mdx",
+              "sourceDirName": "06-ares",
+              "slug": "/ares/ares-user-guide",
+              "permalink": "/docs/ares/ares-user-guide",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "User Guide"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Ares Research Cluster",
+                "permalink": "/docs/category/ares-research-cluster"
+              },
+              "next": {
+                "title": "FAQ",
+                "permalink": "/docs/ares/faq"
+              }
+            },
+            {
+              "id": "ares/faq",
+              "title": "FAQ",
+              "description": "Basics",
+              "source": "@site/docs/06-ares/02-faq.mdx",
+              "sourceDirName": "06-ares",
+              "slug": "/ares/faq",
+              "permalink": "/docs/ares/faq",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "FAQ"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "User Guide",
+                "permalink": "/docs/ares/ares-user-guide"
+              }
+            },
+            {
+              "id": "chronolog/index",
+              "title": "Introduction",
+              "description": "Synopsis",
+              "source": "@site/docs/04-chronolog/01-index.md",
+              "sourceDirName": "04-chronolog",
+              "slug": "/chronolog/index",
+              "permalink": "/docs/chronolog/index",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Introduction"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Frequently Asked Questions",
+                "permalink": "/docs/hermes/faq"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/jarvis/jarvis-util/index"
+              }
+            },
+            {
+              "id": "hermes/adapters",
+              "title": "Adapters",
+              "description": "Hermes Ecosystem",
+              "source": "@site/docs/03-hermes/06-adapters.md",
+              "sourceDirName": "03-hermes",
+              "slug": "/hermes/adapters",
+              "permalink": "/docs/hermes/adapters",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Configuration",
+                "permalink": "/docs/hermes/configuration"
+              },
+              "next": {
+                "title": "Programming",
+                "permalink": "/docs/hermes/programming"
+              }
+            },
+            {
+              "id": "hermes/building-hermes",
+              "title": "Building Hermes",
+              "description": "Dependencies",
+              "source": "@site/docs/03-hermes/02-building-hermes.md",
+              "sourceDirName": "03-hermes",
+              "slug": "/hermes/building-hermes",
+              "permalink": "/docs/hermes/building-hermes",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Main Scenario",
+                "permalink": "/docs/hermes/main-scenario"
+              },
+              "next": {
+                "title": "Deploying Hermes",
+                "permalink": "/docs/hermes/deploying-hermes"
+              }
+            },
+            {
+              "id": "hermes/components/buffer-organizer",
+              "title": "Buffer Organizer",
+              "description": "The Buffer Organizer is the \"corrector\" half of our",
+              "source": "@site/docs/03-hermes/08-components/01-buffer-organizer.md",
+              "sourceDirName": "03-hermes/08-components",
+              "slug": "/hermes/components/buffer-organizer",
+              "permalink": "/docs/hermes/components/buffer-organizer",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Programming",
+                "permalink": "/docs/hermes/programming"
+              },
+              "next": {
+                "title": "Buffer Pool",
+                "permalink": "/docs/hermes/components/buffer-pool"
+              }
+            },
+            {
+              "id": "hermes/components/buffer-pool",
+              "title": "Buffer Pool",
+              "description": "The main idea behind the Buffer Pool is to avoid the runtime",
+              "source": "@site/docs/03-hermes/08-components/02-buffer-pool.md",
+              "sourceDirName": "03-hermes/08-components",
+              "slug": "/hermes/components/buffer-pool",
+              "permalink": "/docs/hermes/components/buffer-pool",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Buffer Organizer",
+                "permalink": "/docs/hermes/components/buffer-organizer"
+              },
+              "next": {
+                "title": "Buffering Target",
+                "permalink": "/docs/hermes/components/buffering-target"
+              }
+            },
+            {
+              "id": "hermes/components/buffering-target",
+              "title": "Buffering Target",
+              "description": "A buffering target represents a logical target of data placement, i.e.,",
+              "source": "@site/docs/03-hermes/08-components/03-buffering-target.md",
+              "sourceDirName": "03-hermes/08-components",
+              "slug": "/hermes/components/buffering-target",
+              "permalink": "/docs/hermes/components/buffering-target",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Buffer Pool",
+                "permalink": "/docs/hermes/components/buffer-pool"
+              },
+              "next": {
+                "title": "Data Placement",
+                "permalink": "/docs/hermes/components/data-placement"
+              }
+            },
+            {
+              "id": "hermes/components/data-placement",
+              "title": "Data Placement",
+              "description": "Every Hermes system instance includes one or more Hermes nodes.",
+              "source": "@site/docs/03-hermes/08-components/04-data-placement.md",
+              "sourceDirName": "03-hermes/08-components",
+              "slug": "/hermes/components/data-placement",
+              "permalink": "/docs/hermes/components/data-placement",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Buffering Target",
+                "permalink": "/docs/hermes/components/buffering-target"
+              },
+              "next": {
+                "title": "Data Staging",
+                "permalink": "/docs/hermes/components/data-staging"
+              }
+            },
+            {
+              "id": "hermes/components/data-staging",
+              "title": "Data Staging",
+              "description": "Stage-in is the ability to load external datasets into Hermes.",
+              "source": "@site/docs/03-hermes/08-components/06-data-staging.md",
+              "sourceDirName": "03-hermes/08-components",
+              "slug": "/hermes/components/data-staging",
+              "permalink": "/docs/hermes/components/data-staging",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Data Placement",
+                "permalink": "/docs/hermes/components/data-placement"
+              },
+              "next": {
+                "title": "Runtime",
+                "permalink": "/docs/hermes/components/runtime"
+              }
+            },
+            {
+              "id": "hermes/components/distributed-metadata",
+              "title": "Distributed Metadata",
+              "description": "Metadata is stored in a distributed hash map. In each Hermes Daemon, we",
+              "source": "@site/docs/03-hermes/08-components/08-distributed-metadata.md",
+              "sourceDirName": "03-hermes/08-components",
+              "slug": "/hermes/components/distributed-metadata",
+              "permalink": "/docs/hermes/components/distributed-metadata",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Runtime",
+                "permalink": "/docs/hermes/components/runtime"
+              },
+              "next": {
+                "title": "Prefetcher",
+                "permalink": "/docs/hermes/components/prefetcher"
+              }
+            },
+            {
+              "id": "hermes/components/examples",
+              "title": "Examples",
+              "description": "Ares (IIT)",
+              "source": "@site/docs/03-hermes/08-components/10-examples.md",
+              "sourceDirName": "03-hermes/08-components",
+              "slug": "/hermes/components/examples",
+              "permalink": "/docs/hermes/components/examples",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Prefetcher",
+                "permalink": "/docs/hermes/components/prefetcher"
+              },
+              "next": {
+                "title": "Tagging",
+                "permalink": "/docs/hermes/components/tagging"
+              }
+            },
+            {
+              "id": "hermes/components/prefetcher",
+              "title": "Prefetcher",
+              "description": "The objective of the Prefetcher is to promote and demote content which is",
+              "source": "@site/docs/03-hermes/08-components/09-prefetcher.md",
+              "sourceDirName": "03-hermes/08-components",
+              "slug": "/hermes/components/prefetcher",
+              "permalink": "/docs/hermes/components/prefetcher",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Distributed Metadata",
+                "permalink": "/docs/hermes/components/distributed-metadata"
+              },
+              "next": {
+                "title": "Examples",
+                "permalink": "/docs/hermes/components/examples"
+              }
+            },
+            {
+              "id": "hermes/components/runtime",
+              "title": "Runtime",
+              "description": "Hermes is built as a plugin to the Hermes Runtime, a distributed task processing framework",
+              "source": "@site/docs/03-hermes/08-components/07-runtime.md",
+              "sourceDirName": "03-hermes/08-components",
+              "slug": "/hermes/components/runtime",
+              "permalink": "/docs/hermes/components/runtime",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Data Staging",
+                "permalink": "/docs/hermes/components/data-staging"
+              },
+              "next": {
+                "title": "Distributed Metadata",
+                "permalink": "/docs/hermes/components/distributed-metadata"
+              }
+            },
+            {
+              "id": "hermes/components/tagging",
+              "title": "Tagging",
+              "description": "Tags enable users to semantically define associations between blobs and provide",
+              "source": "@site/docs/03-hermes/08-components/11-tagging.md",
+              "sourceDirName": "03-hermes/08-components",
+              "slug": "/hermes/components/tagging",
+              "permalink": "/docs/hermes/components/tagging",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 11,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Examples",
+                "permalink": "/docs/hermes/components/examples"
+              },
+              "next": {
+                "title": "Topology",
+                "permalink": "/docs/hermes/components/topology"
+              }
+            },
+            {
+              "id": "hermes/components/topology",
+              "title": "Topology",
+              "description": "The TopologyManager is responsible for maintaining sets of Targets",
+              "source": "@site/docs/03-hermes/08-components/12-topology.md",
+              "sourceDirName": "03-hermes/08-components",
+              "slug": "/hermes/components/topology",
+              "permalink": "/docs/hermes/components/topology",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 12,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tagging",
+                "permalink": "/docs/hermes/components/tagging"
+              },
+              "next": {
+                "title": "Containers",
+                "permalink": "/docs/hermes/containers"
+              }
+            },
+            {
+              "id": "hermes/configuration",
+              "title": "Configuration",
+              "description": "Before deploying an application, you need to configure Hermes. Hermes has two types of configurations: server configuration and client configuration. They",
+              "source": "@site/docs/03-hermes/05-configuration.md",
+              "sourceDirName": "03-hermes",
+              "slug": "/hermes/configuration",
+              "permalink": "/docs/hermes/configuration",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deploying Hermes",
+                "permalink": "/docs/hermes/deploying-hermes"
+              },
+              "next": {
+                "title": "Adapters",
+                "permalink": "/docs/hermes/adapters"
+              }
+            },
+            {
+              "id": "hermes/containers",
+              "title": "Containers",
+              "description": "Dockerfiles",
+              "source": "@site/docs/03-hermes/09-containers.md",
+              "sourceDirName": "03-hermes",
+              "slug": "/hermes/containers",
+              "permalink": "/docs/hermes/containers",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Topology",
+                "permalink": "/docs/hermes/components/topology"
+              },
+              "next": {
+                "title": "Developer Guide",
+                "permalink": "/docs/hermes/developer-guide"
+              }
+            },
+            {
+              "id": "hermes/deploying-hermes",
+              "title": "Deploying Hermes",
+              "description": "Configuring + Deploying Hermes",
+              "source": "@site/docs/03-hermes/03-deploying-hermes.md",
+              "sourceDirName": "03-hermes",
+              "slug": "/hermes/deploying-hermes",
+              "permalink": "/docs/hermes/deploying-hermes",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Building Hermes",
+                "permalink": "/docs/hermes/building-hermes"
+              },
+              "next": {
+                "title": "Configuration",
+                "permalink": "/docs/hermes/configuration"
+              }
+            },
+            {
+              "id": "hermes/developer-guide",
+              "title": "Developer Guide",
+              "description": "Hermes can be complicated to debug due to its distributed and asynchronous",
+              "source": "@site/docs/03-hermes/10-developer-guide.md",
+              "sourceDirName": "03-hermes",
+              "slug": "/hermes/developer-guide",
+              "permalink": "/docs/hermes/developer-guide",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Containers",
+                "permalink": "/docs/hermes/containers"
+              },
+              "next": {
+                "title": "Doxygen",
+                "permalink": "/docs/hermes/doxygen"
+              }
+            },
+            {
+              "id": "hermes/doxygen",
+              "title": "Doxygen",
+              "description": "The Doxygen portion of the Hermes documentation can be built as follows:",
+              "source": "@site/docs/03-hermes/11-doxygen.md",
+              "sourceDirName": "03-hermes",
+              "slug": "/hermes/doxygen",
+              "permalink": "/docs/hermes/doxygen",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 11,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Developer Guide",
+                "permalink": "/docs/hermes/developer-guide"
+              },
+              "next": {
+                "title": "Frequently Asked Questions",
+                "permalink": "/docs/hermes/faq"
+              }
+            },
+            {
+              "id": "hermes/faq",
+              "title": "Frequently Asked Questions",
+              "description": "What is the minimum version for GCC?",
+              "source": "@site/docs/03-hermes/12-faq.md",
+              "sourceDirName": "03-hermes",
+              "slug": "/hermes/faq",
+              "permalink": "/docs/hermes/faq",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 12,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Doxygen",
+                "permalink": "/docs/hermes/doxygen"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/chronolog/index"
+              }
+            },
+            {
+              "id": "hermes/main-scenario",
+              "title": "Main Scenario",
+              "description": "Hermes 1.1.0 is now available! [Download",
+              "source": "@site/docs/03-hermes/01-main-scenario.md",
+              "sourceDirName": "03-hermes",
+              "slug": "/hermes/main-scenario",
+              "permalink": "/docs/hermes/main-scenario",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Hermes",
+                "permalink": "/docs/category/hermes"
+              },
+              "next": {
+                "title": "Building Hermes",
+                "permalink": "/docs/hermes/building-hermes"
+              }
+            },
+            {
+              "id": "hermes/programming",
+              "title": "Programming",
+              "description": "In this section, we will discuss the general steps of building a program",
+              "source": "@site/docs/03-hermes/07-programming.md",
+              "sourceDirName": "03-hermes",
+              "slug": "/hermes/programming",
+              "permalink": "/docs/hermes/programming",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Adapters",
+                "permalink": "/docs/hermes/adapters"
+              },
+              "next": {
+                "title": "Buffer Organizer",
+                "permalink": "/docs/hermes/components/buffer-organizer"
+              }
+            },
+            {
+              "id": "hpc-tutorials/cpp-introduction/hello-world",
+              "title": "Hello World",
+              "description": "Choosing a Compiler",
+              "source": "@site/docs/02-hpc-tutorials/04-cpp-introduction/01-hello-world.md",
+              "sourceDirName": "02-hpc-tutorials/04-cpp-introduction",
+              "slug": "/hpc-tutorials/cpp-introduction/hello-world",
+              "permalink": "/docs/hpc-tutorials/cpp-introduction/hello-world",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "C++ Introduction",
+                "permalink": "/docs/category/c-introduction"
+              },
+              "next": {
+                "title": "Hermes",
+                "permalink": "/docs/category/hermes"
+              }
+            },
+            {
+              "id": "hpc-tutorials/important-environment-variables/cmake-module-path",
+              "title": "CMAKE_MODULE_PATH",
+              "description": "CMAKEMODULEPATH is used by CMake to identify the location of CMake modules.",
+              "source": "@site/docs/02-hpc-tutorials/03-important-environment-variables/cmake-module-path.md",
+              "sourceDirName": "02-hpc-tutorials/03-important-environment-variables",
+              "slug": "/hpc-tutorials/important-environment-variables/cmake-module-path",
+              "permalink": "/docs/hpc-tutorials/important-environment-variables/cmake-module-path",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Important Environment Variables",
+                "permalink": "/docs/category/important-environment-variables"
+              },
+              "next": {
+                "title": "CMAKE_PREFIX_PATH",
+                "permalink": "/docs/hpc-tutorials/important-environment-variables/cmake-prefix-path"
+              }
+            },
+            {
+              "id": "hpc-tutorials/important-environment-variables/cmake-prefix-path",
+              "title": "CMAKE_PREFIX_PATH",
+              "description": "CMAKEPREFIXPATH is used by CMake to identify the location of CMake package configurations.",
+              "source": "@site/docs/02-hpc-tutorials/03-important-environment-variables/cmake-prefix-path.md",
+              "sourceDirName": "02-hpc-tutorials/03-important-environment-variables",
+              "slug": "/hpc-tutorials/important-environment-variables/cmake-prefix-path",
+              "permalink": "/docs/hpc-tutorials/important-environment-variables/cmake-prefix-path",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CMAKE_MODULE_PATH",
+                "permalink": "/docs/hpc-tutorials/important-environment-variables/cmake-module-path"
+              },
+              "next": {
+                "title": "CPATH",
+                "permalink": "/docs/hpc-tutorials/important-environment-variables/cpath"
+              }
+            },
+            {
+              "id": "hpc-tutorials/important-environment-variables/cpath",
+              "title": "CPATH",
+              "description": "GCC and Clang search each path in CPATH and sometimes INCLUDE_PATH for header files.",
+              "source": "@site/docs/02-hpc-tutorials/03-important-environment-variables/cpath.md",
+              "sourceDirName": "02-hpc-tutorials/03-important-environment-variables",
+              "slug": "/hpc-tutorials/important-environment-variables/cpath",
+              "permalink": "/docs/hpc-tutorials/important-environment-variables/cpath",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CMAKE_PREFIX_PATH",
+                "permalink": "/docs/hpc-tutorials/important-environment-variables/cmake-prefix-path"
+              },
+              "next": {
+                "title": "JAVA_HOME",
+                "permalink": "/docs/hpc-tutorials/important-environment-variables/java-home"
+              }
+            },
+            {
+              "id": "hpc-tutorials/important-environment-variables/java-home",
+              "title": "JAVA_HOME",
+              "description": "JAVA_HOME is frequently used as the environment variable to specify the current java installation.",
+              "source": "@site/docs/02-hpc-tutorials/03-important-environment-variables/java-home.md",
+              "sourceDirName": "02-hpc-tutorials/03-important-environment-variables",
+              "slug": "/hpc-tutorials/important-environment-variables/java-home",
+              "permalink": "/docs/hpc-tutorials/important-environment-variables/java-home",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CPATH",
+                "permalink": "/docs/hpc-tutorials/important-environment-variables/cpath"
+              },
+              "next": {
+                "title": "LD_LIBRARY_PATH",
+                "permalink": "/docs/hpc-tutorials/important-environment-variables/ld-library-path"
+              }
+            },
+            {
+              "id": "hpc-tutorials/important-environment-variables/ld-library-path",
+              "title": "LD_LIBRARY_PATH",
+              "description": "LDLIBRARYPATH is used by Linux to locate shared objects at runtime (as opposed to compile-time).",
+              "source": "@site/docs/02-hpc-tutorials/03-important-environment-variables/ld-library-path.md",
+              "sourceDirName": "02-hpc-tutorials/03-important-environment-variables",
+              "slug": "/hpc-tutorials/important-environment-variables/ld-library-path",
+              "permalink": "/docs/hpc-tutorials/important-environment-variables/ld-library-path",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "JAVA_HOME",
+                "permalink": "/docs/hpc-tutorials/important-environment-variables/java-home"
+              },
+              "next": {
+                "title": "LD_PRELOAD",
+                "permalink": "/docs/hpc-tutorials/important-environment-variables/ld-preload"
+              }
+            },
+            {
+              "id": "hpc-tutorials/important-environment-variables/ld-preload",
+              "title": "LD_PRELOAD",
+              "description": "LD_PRELOAD is used by Linux to intercept functions in a program and replace their",
+              "source": "@site/docs/02-hpc-tutorials/03-important-environment-variables/ld-preload.md",
+              "sourceDirName": "02-hpc-tutorials/03-important-environment-variables",
+              "slug": "/hpc-tutorials/important-environment-variables/ld-preload",
+              "permalink": "/docs/hpc-tutorials/important-environment-variables/ld-preload",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "LD_LIBRARY_PATH",
+                "permalink": "/docs/hpc-tutorials/important-environment-variables/ld-library-path"
+              },
+              "next": {
+                "title": "LIBRARY_PATH",
+                "permalink": "/docs/hpc-tutorials/important-environment-variables/library-path"
+              }
+            },
+            {
+              "id": "hpc-tutorials/important-environment-variables/library-path",
+              "title": "LIBRARY_PATH",
+              "description": "GCC and Clang search each path in LIBRARY_PATH for shared objects and archives.",
+              "source": "@site/docs/02-hpc-tutorials/03-important-environment-variables/library-path.md",
+              "sourceDirName": "02-hpc-tutorials/03-important-environment-variables",
+              "slug": "/hpc-tutorials/important-environment-variables/library-path",
+              "permalink": "/docs/hpc-tutorials/important-environment-variables/library-path",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "LD_PRELOAD",
+                "permalink": "/docs/hpc-tutorials/important-environment-variables/ld-preload"
+              },
+              "next": {
+                "title": "PATH",
+                "permalink": "/docs/hpc-tutorials/important-environment-variables/path"
+              }
+            },
+            {
+              "id": "hpc-tutorials/important-environment-variables/path",
+              "title": "PATH",
+              "description": "The PATH variable is used to locate executable objects. For example:",
+              "source": "@site/docs/02-hpc-tutorials/03-important-environment-variables/path.md",
+              "sourceDirName": "02-hpc-tutorials/03-important-environment-variables",
+              "slug": "/hpc-tutorials/important-environment-variables/path",
+              "permalink": "/docs/hpc-tutorials/important-environment-variables/path",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "LIBRARY_PATH",
+                "permalink": "/docs/hpc-tutorials/important-environment-variables/library-path"
+              },
+              "next": {
+                "title": "PYTHONPATH",
+                "permalink": "/docs/hpc-tutorials/important-environment-variables/pythonpath"
+              }
+            },
+            {
+              "id": "hpc-tutorials/important-environment-variables/pythonpath",
+              "title": "PYTHONPATH",
+              "description": "Python uses PYTHONPATH to specify directories where Python modules may be located.",
+              "source": "@site/docs/02-hpc-tutorials/03-important-environment-variables/python-path.md",
+              "sourceDirName": "02-hpc-tutorials/03-important-environment-variables",
+              "slug": "/hpc-tutorials/important-environment-variables/pythonpath",
+              "permalink": "/docs/hpc-tutorials/important-environment-variables/pythonpath",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "pythonpath"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "PATH",
+                "permalink": "/docs/hpc-tutorials/important-environment-variables/path"
+              },
+              "next": {
+                "title": "C++ Introduction",
+                "permalink": "/docs/category/c-introduction"
+              }
+            },
+            {
+              "id": "hpc-tutorials/installing-hpc-software/building-from-scratch",
+              "title": "Building From Scratch",
+              "description": "When spack fails, there aren't many options but to build the code from scratch. This is typically an arduous,",
+              "source": "@site/docs/02-hpc-tutorials/02-installing-hpc-software/02-building-from-scratch.md",
+              "sourceDirName": "02-hpc-tutorials/02-installing-hpc-software",
+              "slug": "/hpc-tutorials/installing-hpc-software/building-from-scratch",
+              "permalink": "/docs/hpc-tutorials/installing-hpc-software/building-from-scratch",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Building With Spack",
+                "permalink": "/docs/hpc-tutorials/installing-hpc-software/building-with-spack"
+              },
+              "next": {
+                "title": "Important Environment Variables",
+                "permalink": "/docs/category/important-environment-variables"
+              }
+            },
+            {
+              "id": "hpc-tutorials/installing-hpc-software/building-with-spack",
+              "title": "Building With Spack",
+              "description": "Spack is a system for installing packages for HPC centers. Spack",
+              "source": "@site/docs/02-hpc-tutorials/02-installing-hpc-software/01-building-with-spack.md",
+              "sourceDirName": "02-hpc-tutorials/02-installing-hpc-software",
+              "slug": "/hpc-tutorials/installing-hpc-software/building-with-spack",
+              "permalink": "/docs/hpc-tutorials/installing-hpc-software/building-with-spack",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Installing HPC Software",
+                "permalink": "/docs/category/installing-hpc-software"
+              },
+              "next": {
+                "title": "Building From Scratch",
+                "permalink": "/docs/hpc-tutorials/installing-hpc-software/building-from-scratch"
+              }
+            },
+            {
+              "id": "hpc-tutorials/linux-introduction/choosing-an-os",
+              "title": "Choosing an OS",
+              "description": "Which distro?",
+              "source": "@site/docs/02-hpc-tutorials/01-linux-introduction/01-choosing-an-os.md",
+              "sourceDirName": "02-hpc-tutorials/01-linux-introduction",
+              "slug": "/hpc-tutorials/linux-introduction/choosing-an-os",
+              "permalink": "/docs/hpc-tutorials/linux-introduction/choosing-an-os",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Linux Introduction",
+                "permalink": "/docs/category/linux-introduction"
+              },
+              "next": {
+                "title": "Basics of using a Terminal",
+                "permalink": "/docs/hpc-tutorials/linux-introduction/using-a-terminal"
+              }
+            },
+            {
+              "id": "hpc-tutorials/linux-introduction/ssh",
+              "title": "SSH",
+              "description": "SSH is a secure way of connecting to a remote machine. SSH relies on public-private key cryptography to secure",
+              "source": "@site/docs/02-hpc-tutorials/01-linux-introduction/03-ssh.md",
+              "sourceDirName": "02-hpc-tutorials/01-linux-introduction",
+              "slug": "/hpc-tutorials/linux-introduction/ssh",
+              "permalink": "/docs/hpc-tutorials/linux-introduction/ssh",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Basics of using a Terminal",
+                "permalink": "/docs/hpc-tutorials/linux-introduction/using-a-terminal"
+              },
+              "next": {
+                "title": "Installing HPC Software",
+                "permalink": "/docs/category/installing-hpc-software"
+              }
+            },
+            {
+              "id": "hpc-tutorials/linux-introduction/using-a-terminal",
+              "title": "Basics of using a Terminal",
+              "description": "In this section, we will use Ubuntu 22.04 as our Linux distro. First, we will discuss the basic aspects of using a Linux terminal.",
+              "source": "@site/docs/02-hpc-tutorials/01-linux-introduction/02-using-a-terminal.md",
+              "sourceDirName": "02-hpc-tutorials/01-linux-introduction",
+              "slug": "/hpc-tutorials/linux-introduction/using-a-terminal",
+              "permalink": "/docs/hpc-tutorials/linux-introduction/using-a-terminal",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Choosing an OS",
+                "permalink": "/docs/hpc-tutorials/linux-introduction/choosing-an-os"
+              },
+              "next": {
+                "title": "SSH",
+                "permalink": "/docs/hpc-tutorials/linux-introduction/ssh"
+              }
+            },
+            {
+              "id": "index",
+              "title": "Welcome",
+              "description": "Welcome to the Gnosis Research Center Knowledge Base, your source for insightful information on a diverse range of topics.",
+              "source": "@site/docs/01-index.md",
+              "sourceDirName": ".",
+              "slug": "/index",
+              "permalink": "/docs/index",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "sidebar_position": 0
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Linux Introduction",
+                "permalink": "/docs/category/linux-introduction"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/building-package",
+              "title": "Building a Package",
+              "description": "This guide documents how to extend the set of applications that Jarvis is",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/06-building-package.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd",
+              "slug": "/jarvis/jarvis-cd/building-package",
+              "permalink": "/docs/jarvis/jarvis-cd/building-package",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Custom Repos",
+                "permalink": "/docs/jarvis/jarvis-cd/custom-repos"
+              },
+              "next": {
+                "title": "Python API",
+                "permalink": "/docs/jarvis/jarvis-cd/python-api"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/custom-repos",
+              "title": "Custom Repos",
+              "description": "There are cases where your organization may have packages used internally and",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/05-custom-repos.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd",
+              "slug": "/jarvis/jarvis-cd/custom-repos",
+              "permalink": "/docs/jarvis/jarvis-cd/custom-repos",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Design & Motivation",
+                "permalink": "/docs/jarvis/jarvis-cd/design-motivation"
+              },
+              "next": {
+                "title": "Building a Package",
+                "permalink": "/docs/jarvis/jarvis-cd/building-package"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/design-motivation",
+              "title": "Design & Motivation",
+              "description": "First we will describe how jarvis-cd is organized and the files that it creates.",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/04-design-motivation.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd",
+              "slug": "/jarvis/jarvis-cd/design-motivation",
+              "permalink": "/docs/jarvis/jarvis-cd/design-motivation",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Resource Graph",
+                "permalink": "/docs/jarvis/jarvis-cd/resource-graph"
+              },
+              "next": {
+                "title": "Custom Repos",
+                "permalink": "/docs/jarvis/jarvis-cd/custom-repos"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/future-work",
+              "title": "Future Work",
+              "description": "1. What if we aren't using SSH?",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/11-future-work.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd",
+              "slug": "/jarvis/jarvis-cd/future-work",
+              "permalink": "/docs/jarvis/jarvis-cd/future-work",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 11,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Virtualization",
+                "permalink": "/docs/jarvis/jarvis-cd/virtualization"
+              },
+              "next": {
+                "title": "Ares Research Cluster",
+                "permalink": "/docs/category/ares-research-cluster"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/getting-started",
+              "title": "Getting Standard",
+              "description": "In this section, we will discuss the jarvis command line interface.",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/02-getting-started.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd",
+              "slug": "/jarvis/jarvis-cd/getting-started",
+              "permalink": "/docs/jarvis/jarvis-cd/getting-started",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/jarvis/jarvis-cd/index"
+              },
+              "next": {
+                "title": "Resource Graph",
+                "permalink": "/docs/jarvis/jarvis-cd/resource-graph"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/index",
+              "title": "Introduction",
+              "description": "jarvis-cd is a unified platform for deploying various applications, including",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/01-index.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd",
+              "slug": "/jarvis/jarvis-cd/index",
+              "permalink": "/docs/jarvis/jarvis-cd/index",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Hostfile",
+                "permalink": "/docs/jarvis/jarvis-util/hostfile"
+              },
+              "next": {
+                "title": "Getting Standard",
+                "permalink": "/docs/jarvis/jarvis-cd/getting-started"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/cm1",
+              "title": "CM1",
+              "description": "Dependencies",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/08-packages/cm1.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd/08-packages",
+              "slug": "/jarvis/jarvis-cd/packages/cm1",
+              "permalink": "/docs/jarvis/jarvis-cd/packages/cm1",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Python API",
+                "permalink": "/docs/jarvis/jarvis-cd/python-api"
+              },
+              "next": {
+                "title": "DeepDriveMD",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/deepdrivemd"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/deepdrivemd",
+              "title": "DeepDriveMD",
+              "description": "Dependencies",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/08-packages/deepdrivemd.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd/08-packages",
+              "slug": "/jarvis/jarvis-cd/packages/deepdrivemd",
+              "permalink": "/docs/jarvis/jarvis-cd/packages/deepdrivemd",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CM1",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/cm1"
+              },
+              "next": {
+                "title": "Gadget2",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/gadget2"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/gadget2",
+              "title": "Gadget2",
+              "description": "GADGET is a freely available code for cosmological N-body/SPH simulations on massively parallel computers with distributed memory. GADGET uses an explicit communication model that is implemented with the standardized MPI communication interface. The code can be run on essentially all supercomputer systems presently in use, including clusters of workstations or individual PCs.",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/08-packages/gadget2.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd/08-packages",
+              "slug": "/jarvis/jarvis-cd/packages/gadget2",
+              "permalink": "/docs/jarvis/jarvis-cd/packages/gadget2",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "DeepDriveMD",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/deepdrivemd"
+              },
+              "next": {
+                "title": "Gadget",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/gadget4"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/gadget4",
+              "title": "Gadget",
+              "description": "GADGET-4 is a massively parallel code for N-body/hydrodynamical cosmological",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/08-packages/gadget4.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd/08-packages",
+              "slug": "/jarvis/jarvis-cd/packages/gadget4",
+              "permalink": "/docs/jarvis/jarvis-cd/packages/gadget4",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Gadget2",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/gadget2"
+              },
+              "next": {
+                "title": "LAMMPS",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/lammps"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/lammps",
+              "title": "LAMMPS",
+              "description": "Installation",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/08-packages/lammps.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd/08-packages",
+              "slug": "/jarvis/jarvis-cd/packages/lammps",
+              "permalink": "/docs/jarvis/jarvis-cd/packages/lammps",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Gadget",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/gadget4"
+              },
+              "next": {
+                "title": "Nyx",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/nyx"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/nyx",
+              "title": "Nyx",
+              "description": "https://amrex-astro.github.io/Nyx/",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/08-packages/nyx.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd/08-packages",
+              "slug": "/jarvis/jarvis-cd/packages/nyx",
+              "permalink": "/docs/jarvis/jarvis-cd/packages/nyx",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "LAMMPS",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/lammps"
+              },
+              "next": {
+                "title": "OpenFOAM",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/openfoam"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/openfoam",
+              "title": "OpenFOAM",
+              "description": "Installation",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/08-packages/openfoam.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd/08-packages",
+              "slug": "/jarvis/jarvis-cd/packages/openfoam",
+              "permalink": "/docs/jarvis/jarvis-cd/packages/openfoam",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Nyx",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/nyx"
+              },
+              "next": {
+                "title": "VPIC Kokkos",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/vpic-kokkos"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/vpic",
+              "title": "VPIC",
+              "description": "Installation",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/08-packages/vpic.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd/08-packages",
+              "slug": "/jarvis/jarvis-cd/packages/vpic",
+              "permalink": "/docs/jarvis/jarvis-cd/packages/vpic",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "VPIC Kokkos",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/vpic-kokkos"
+              },
+              "next": {
+                "title": "WRF",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/wrf"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/vpic-kokkos",
+              "title": "VPIC Kokkos",
+              "description": "Installation",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/08-packages/vpic-kokkos.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd/08-packages",
+              "slug": "/jarvis/jarvis-cd/packages/vpic-kokkos",
+              "permalink": "/docs/jarvis/jarvis-cd/packages/vpic-kokkos",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "OpenFOAM",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/openfoam"
+              },
+              "next": {
+                "title": "VPIC",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/vpic"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/wrf",
+              "title": "WRF",
+              "description": "Installation",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/08-packages/wrf.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd/08-packages",
+              "slug": "/jarvis/jarvis-cd/packages/wrf",
+              "permalink": "/docs/jarvis/jarvis-cd/packages/wrf",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "VPIC",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/vpic"
+              },
+              "next": {
+                "title": "Schedulers",
+                "permalink": "/docs/jarvis/jarvis-cd/schedulers"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/python-api",
+              "title": "Python API",
+              "description": "This guide documents how to use Jarvis within a Python script. To this point,",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/07-python-api.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd",
+              "slug": "/jarvis/jarvis-cd/python-api",
+              "permalink": "/docs/jarvis/jarvis-cd/python-api",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Building a Package",
+                "permalink": "/docs/jarvis/jarvis-cd/building-package"
+              },
+              "next": {
+                "title": "CM1",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/cm1"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/resource-graph",
+              "title": "Resource Graph",
+              "description": "A resource graph contains a snapshot of the state of a cluster. This",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/03-resource-graph.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd",
+              "slug": "/jarvis/jarvis-cd/resource-graph",
+              "permalink": "/docs/jarvis/jarvis-cd/resource-graph",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Standard",
+                "permalink": "/docs/jarvis/jarvis-cd/getting-started"
+              },
+              "next": {
+                "title": "Design & Motivation",
+                "permalink": "/docs/jarvis/jarvis-cd/design-motivation"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/schedulers",
+              "title": "Schedulers",
+              "description": "Jarvis-CD provides native support for two popular job scheduling systems: SLURM and PBS. This documentation aims to guide users on how to utilize both schedulers through Jarvis-CD.",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/09-schedulers.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd",
+              "slug": "/jarvis/jarvis-cd/schedulers",
+              "permalink": "/docs/jarvis/jarvis-cd/schedulers",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "WRF",
+                "permalink": "/docs/jarvis/jarvis-cd/packages/wrf"
+              },
+              "next": {
+                "title": "Virtualization",
+                "permalink": "/docs/jarvis/jarvis-cd/virtualization"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-cd/virtualization",
+              "title": "Virtualization",
+              "description": "A future work could include deploying VMs and containers of storage systems.",
+              "source": "@site/docs/05-jarvis/02-jarvis-cd/10-virtualization.md",
+              "sourceDirName": "05-jarvis/02-jarvis-cd",
+              "slug": "/jarvis/jarvis-cd/virtualization",
+              "permalink": "/docs/jarvis/jarvis-cd/virtualization",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Schedulers",
+                "permalink": "/docs/jarvis/jarvis-cd/schedulers"
+              },
+              "next": {
+                "title": "Future Work",
+                "permalink": "/docs/jarvis/jarvis-cd/future-work"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-util/argument-parsing",
+              "title": "Argument Parsing",
+              "description": "We provide a custom argument parsing implementation. The main difference between",
+              "source": "@site/docs/05-jarvis/01-jarvis-util/04-argument-parsing.md",
+              "sourceDirName": "05-jarvis/01-jarvis-util",
+              "slug": "/jarvis/jarvis-util/argument-parsing",
+              "permalink": "/docs/jarvis/jarvis-util/argument-parsing",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Built-in Wrappers",
+                "permalink": "/docs/jarvis/jarvis-util/builtin-wrappers"
+              },
+              "next": {
+                "title": "Hostfile",
+                "permalink": "/docs/jarvis/jarvis-util/hostfile"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-util/builtin-wrappers",
+              "title": "Built-in Wrappers",
+              "description": "We have various wrappers to support much shell functionality. At this time, these have been built and tested for Linux. These codes inherit from the Exec class shown in Section 1. This way, they can be executed locally or in parallel.",
+              "source": "@site/docs/05-jarvis/01-jarvis-util/03-builtin-wrappers.md",
+              "sourceDirName": "05-jarvis/01-jarvis-util",
+              "slug": "/jarvis/jarvis-util/builtin-wrappers",
+              "permalink": "/docs/jarvis/jarvis-util/builtin-wrappers",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Program Execution",
+                "permalink": "/docs/jarvis/jarvis-util/program-execution"
+              },
+              "next": {
+                "title": "Argument Parsing",
+                "permalink": "/docs/jarvis/jarvis-util/argument-parsing"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-util/hostfile",
+              "title": "Hostfile",
+              "description": "Hostfiles contain a set of machines.",
+              "source": "@site/docs/05-jarvis/01-jarvis-util/05-hostfile.md",
+              "sourceDirName": "05-jarvis/01-jarvis-util",
+              "slug": "/jarvis/jarvis-util/hostfile",
+              "permalink": "/docs/jarvis/jarvis-util/hostfile",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Argument Parsing",
+                "permalink": "/docs/jarvis/jarvis-util/argument-parsing"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/jarvis/jarvis-cd/index"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-util/index",
+              "title": "Introduction",
+              "description": "jarvis-util contains various helpers which are useful for executing programs external to python within Python. We provide various wrappers to support parallel execution (MPI, PSSH), remote execution (SSH), and local execution (exec/fork). We also provide functions which wrap around various helpful commands, such as filesystem commands (ls, rm, pkill, mkdir).",
+              "source": "@site/docs/05-jarvis/01-jarvis-util/01-index.md",
+              "sourceDirName": "05-jarvis/01-jarvis-util",
+              "slug": "/jarvis/jarvis-util/index",
+              "permalink": "/docs/jarvis/jarvis-util/index",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/chronolog/index"
+              },
+              "next": {
+                "title": "Program Execution",
+                "permalink": "/docs/jarvis/jarvis-util/program-execution"
+              }
+            },
+            {
+              "id": "jarvis/jarvis-util/program-execution",
+              "title": "Program Execution",
+              "description": "Exec is used to execute a binary program as a subprocess in Python. Exec can be used for local, remote, or parallel execution of code. Exec is currently a wrapper around the following libraries:",
+              "source": "@site/docs/05-jarvis/01-jarvis-util/02-program-execution.md",
+              "sourceDirName": "05-jarvis/01-jarvis-util",
+              "slug": "/jarvis/jarvis-util/program-execution",
+              "permalink": "/docs/jarvis/jarvis-util/program-execution",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/jarvis/jarvis-util/index"
+              },
+              "next": {
+                "title": "Built-in Wrappers",
+                "permalink": "/docs/jarvis/jarvis-util/builtin-wrappers"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "index"
+              },
+              {
+                "type": "category",
+                "label": "HPC Tutorials",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Linux Introduction",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "hpc-tutorials/linux-introduction/choosing-an-os"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hpc-tutorials/linux-introduction/using-a-terminal"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hpc-tutorials/linux-introduction/ssh"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "All Top500 supercomputers and the majority of cloud systems run Linux. This tutorial will cover the basic aspects of using Linux.",
+                      "slug": "/category/linux-introduction",
+                      "permalink": "/docs/category/linux-introduction"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Installing HPC Software",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "hpc-tutorials/installing-hpc-software/building-with-spack"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hpc-tutorials/installing-hpc-software/building-from-scratch"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/installing-hpc-software",
+                      "permalink": "/docs/category/installing-hpc-software"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Important Environment Variables",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "hpc-tutorials/important-environment-variables/cmake-module-path"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hpc-tutorials/important-environment-variables/cmake-prefix-path"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hpc-tutorials/important-environment-variables/cpath"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hpc-tutorials/important-environment-variables/java-home"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hpc-tutorials/important-environment-variables/ld-library-path"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hpc-tutorials/important-environment-variables/ld-preload"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hpc-tutorials/important-environment-variables/library-path"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hpc-tutorials/important-environment-variables/path"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hpc-tutorials/important-environment-variables/pythonpath"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/important-environment-variables",
+                      "permalink": "/docs/category/important-environment-variables"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "C++ Introduction",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "hpc-tutorials/cpp-introduction/hello-world"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "C/C++ are the main programming languages used for modern HPC programs. While this is also evolving, this is the current standard. We will walk through the basics of compiling C++ software and the basics of C++ programming.",
+                      "slug": "/category/c-introduction",
+                      "permalink": "/docs/category/c-introduction"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Hermes",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "hermes/main-scenario"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "hermes/building-hermes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "hermes/deploying-hermes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "hermes/configuration"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "hermes/adapters"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "hermes/programming"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Components",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "hermes/components/buffer-organizer"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hermes/components/buffer-pool"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hermes/components/buffering-target"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hermes/components/data-placement"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hermes/components/data-staging"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hermes/components/runtime"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hermes/components/distributed-metadata"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hermes/components/prefetcher"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hermes/components/examples"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hermes/components/tagging"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "hermes/components/topology"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "doc",
+                    "id": "hermes/containers"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "hermes/developer-guide"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "hermes/doxygen"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "hermes/faq"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Hermes is a middeware library that automatically manages buffering in heterogeneous storage environments.",
+                  "slug": "/category/hermes",
+                  "permalink": "/docs/category/hermes"
+                }
+              },
+              {
+                "type": "category",
+                "label": "ChronoLog",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "chronolog/index"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Jarvis",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "jarvis-util",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "jarvis/jarvis-util/index"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "jarvis/jarvis-util/program-execution"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "jarvis/jarvis-util/builtin-wrappers"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "jarvis/jarvis-util/argument-parsing"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "jarvis/jarvis-util/hostfile"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "jarvis-cd",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "jarvis/jarvis-cd/index"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "jarvis/jarvis-cd/getting-started"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "jarvis/jarvis-cd/resource-graph"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "jarvis/jarvis-cd/design-motivation"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "jarvis/jarvis-cd/custom-repos"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "jarvis/jarvis-cd/building-package"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "jarvis/jarvis-cd/python-api"
+                      },
+                      {
+                        "type": "category",
+                        "label": "Packages",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "jarvis/jarvis-cd/packages/cm1"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "jarvis/jarvis-cd/packages/deepdrivemd"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "jarvis/jarvis-cd/packages/gadget2"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "jarvis/jarvis-cd/packages/gadget4"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "jarvis/jarvis-cd/packages/lammps"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "jarvis/jarvis-cd/packages/nyx"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "jarvis/jarvis-cd/packages/openfoam"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "jarvis/jarvis-cd/packages/vpic-kokkos"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "jarvis/jarvis-cd/packages/vpic"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "jarvis/jarvis-cd/packages/wrf"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "doc",
+                        "id": "jarvis/jarvis-cd/schedulers"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "jarvis/jarvis-cd/virtualization"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "jarvis/jarvis-cd/future-work"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Ares Research Cluster",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "ares/ares-user-guide"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ares/faq"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Ares is a high-performance computing (HPC) cluster maintained by GRC.",
+                  "slug": "/category/ares-research-cluster",
+                  "permalink": "/docs/category/ares-research-cluster"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/blog/welcome",
+            "source": "@site/blog/2021-08-26-welcome/index.md",
+            "title": "Welcome",
+            "description": "Docusaurus blogging features are powered by the blog plugin.",
+            "date": "2021-08-26T00:00:00.000Z",
+            "formattedDate": "August 26, 2021",
+            "tags": [
+              {
+                "label": "facebook",
+                "permalink": "/blog/tags/facebook"
+              },
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.405,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              },
+              {
+                "name": "Yangshun Tay",
+                "title": "Front End Engineer @ Facebook",
+                "url": "https://github.com/yangshun",
+                "imageURL": "https://github.com/yangshun.png",
+                "key": "yangshun"
+              }
+            ],
+            "frontMatter": {
+              "slug": "welcome",
+              "title": "Welcome",
+              "authors": [
+                "slorber",
+                "yangshun"
+              ],
+              "tags": [
+                "facebook",
+                "hello",
+                "docusaurus"
+              ]
+            },
+            "unlisted": false,
+            "nextItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/blog/mdx-blog-post"
+            }
+          },
+          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\r\n\r\nSimply add Markdown files (or folders) to the `blog` directory.\r\n\r\nRegular blog authors can be added to `authors.yml`.\r\n\r\nThe blog post date can be extracted from filenames, such as:\r\n\r\n- `2019-05-30-welcome.md`\r\n- `2019-05-30-welcome/index.md`\r\n\r\nA blog post folder can be convenient to co-locate blog post images:\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\nThe blog supports tags as well!\r\n\r\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
+        },
+        {
+          "id": "mdx-blog-post",
+          "metadata": {
+            "permalink": "/blog/mdx-blog-post",
+            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
+            "title": "MDX Blog Post",
+            "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+            "date": "2021-08-01T00:00:00.000Z",
+            "formattedDate": "August 1, 2021",
+            "tags": [
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.175,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              }
+            ],
+            "frontMatter": {
+              "slug": "mdx-blog-post",
+              "title": "MDX Blog Post",
+              "authors": [
+                "slorber"
+              ],
+              "tags": [
+                "docusaurus"
+              ]
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            },
+            "nextItem": {
+              "title": "Long Blog Post",
+              "permalink": "/blog/long-blog-post"
+            }
+          },
+          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\r\n\r\n:::tip\r\n\r\nUse the power of React to create interactive blog posts.\r\n\r\n```js\r\n<button onClick={() => alert('button clicked!')}>Click me!</button>\r\n```\r\n\r\n<button onClick={() => alert('button clicked!')}>Click me!</button>\r\n\r\n:::"
+        },
+        {
+          "id": "long-blog-post",
+          "metadata": {
+            "permalink": "/blog/long-blog-post",
+            "source": "@site/blog/2019-05-29-long-blog-post.md",
+            "title": "Long Blog Post",
+            "description": "This is the summary of a very long blog post,",
+            "date": "2019-05-29T00:00:00.000Z",
+            "formattedDate": "May 29, 2019",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 2.05,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Endilie Yacop Sucipto",
+                "title": "Maintainer of Docusaurus",
+                "url": "https://github.com/endiliey",
+                "imageURL": "https://github.com/endiliey.png",
+                "key": "endi"
+              }
+            ],
+            "frontMatter": {
+              "slug": "long-blog-post",
+              "title": "Long Blog Post",
+              "authors": "endi",
+              "tags": [
+                "hello",
+                "docusaurus"
+              ]
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/blog/mdx-blog-post"
+            },
+            "nextItem": {
+              "title": "First Blog Post",
+              "permalink": "/blog/first-blog-post"
+            }
+          },
+          "content": "This is the summary of a very long blog post,\r\n\r\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\r\n\r\n<!--truncate-->\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        },
+        {
+          "id": "first-blog-post",
+          "metadata": {
+            "permalink": "/blog/first-blog-post",
+            "source": "@site/blog/2019-05-28-first-blog-post.md",
+            "title": "First Blog Post",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "May 28, 2019",
+            "tags": [
+              {
+                "label": "hola",
+                "permalink": "/blog/tags/hola"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.12,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Gao Wei",
+                "title": "Docusaurus Core Team",
+                "url": "https://github.com/wgao19",
+                "image_url": "https://github.com/wgao19.png",
+                "imageURL": "https://github.com/wgao19.png"
+              }
+            ],
+            "frontMatter": {
+              "slug": "first-blog-post",
+              "title": "First Blog Post",
+              "authors": {
+                "name": "Gao Wei",
+                "title": "Docusaurus Core Team",
+                "url": "https://github.com/wgao19",
+                "image_url": "https://github.com/wgao19.png",
+                "imageURL": "https://github.com/wgao19.png"
+              },
+              "tags": [
+                "hola",
+                "docusaurus"
+              ]
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "Long Blog Post",
+              "permalink": "/blog/long-blog-post"
+            }
+          },
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 4,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/facebook": {
+          "label": "facebook",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/facebook",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/facebook",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/hello": {
+          "label": "hello",
+          "items": [
+            "welcome",
+            "long-blog-post"
+          ],
+          "permalink": "/blog/tags/hello",
+          "pages": [
+            {
+              "items": [
+                "welcome",
+                "long-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/hello",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/docusaurus": {
+          "label": "docusaurus",
+          "items": [
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/docusaurus",
+          "pages": [
+            {
+              "items": [
+                "welcome",
+                "mdx-blog-post",
+                "long-blog-post",
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/docusaurus",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 4,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/hola": {
+          "label": "hola",
+          "items": [
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/hola",
+          "pages": [
+            {
+              "items": [
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/hola",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/about",
+        "source": "@site/src/pages/about.mdx",
+        "title": "About",
+        "description": "Vision",
+        "frontMatter": {
+          "title": "About"
+        },
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/contact",
+        "source": "@site/src/pages/contact.mdx",
+        "title": "Contact",
+        "description": "Gnosis Research Center",
+        "frontMatter": {
+          "title": "Contact"
+        },
+        "unlisted": false
+      },
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.tsx"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/members",
+        "source": "@site/src/pages/members.mdx",
+        "title": "Members",
+        "description": "Faculty",
+        "frontMatter": {
+          "title": "Members"
+        },
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/network",
+        "source": "@site/src/pages/network.mdx",
+        "title": "Network",
+        "description": "We work with several Research Labs, Universities and Industry Leaders across the USA and around the world.",
+        "frontMatter": {
+          "title": "Network"
+        },
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/publications",
+        "source": "@site/src/pages/publications.mdx",
+        "title": "Publications",
+        "frontMatter": {
+          "title": "Publications",
+          "hide_table_of_contents": true
+        },
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/jobs/",
+        "source": "@site/src/pages/jobs/index.mdx",
+        "title": "Job Opportunities",
+        "description": "The Gnosis Research Center (GRC) is looking to recruit several people to work on research projects",
+        "frontMatter": {
+          "title": "Job Opportunities"
+        },
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/jobs/postdoc",
+        "source": "@site/src/pages/jobs/postdoc.mdx",
+        "title": "Postdoctoral Research Fellow",
+        "description": "Postdoctoral Research Fellow positions in the areas of advanced computer architecture and",
+        "frontMatter": {
+          "title": "Postdoctoral Research Fellow"
+        },
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/jobs/software-engineer",
+        "source": "@site/src/pages/jobs/software-engineer.mdx",
+        "title": "Research Software Engineer",
+        "description": "The Gnosis Research Center (GRC) at Illinois Tech is seeking talented software engineers to be part of",
+        "frontMatter": {
+          "title": "Research Software Engineer"
+        },
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/research/patents",
+        "source": "@site/src/pages/research/patents.mdx",
+        "title": "Patents",
+        "description": "Label-based Data Representation I/O Process and System",
+        "frontMatter": {
+          "title": "Patents"
+        },
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/resources/hardware-overview",
+        "source": "@site/src/pages/resources/hardware-overview.mdx",
+        "title": "Hardware Overview",
+        "description": "Our members enjoy access to several resources, including:",
+        "frontMatter": {
+          "title": "Hardware Overview"
+        },
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/research/projects/chronolog",
+        "source": "@site/src/pages/research/projects/chronolog.mdx",
+        "title": "Chronolog: A High-Performance Storage Infrastructure for Activity and Log Workloads",
+        "description": "HPC applications generate more data than storage systems can handle, and it is becoming increasingly important to store",
+        "frontMatter": {
+          "title": "Chronolog: A High-Performance Storage Infrastructure for Activity and Log Workloads"
+        },
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/research/projects/coeus",
+        "source": "@site/src/pages/research/projects/coeus.mdx",
+        "title": "Coeus: Accelerating Scientific Insights Using Enriched Metadata",
+        "description": "In collaboration with Sandia and Oak Ridge National Laboratories, coeus investigate the use of an active storage system",
+        "frontMatter": {
+          "title": "Coeus: Accelerating Scientific Insights Using Enriched Metadata"
+        },
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/research/projects/dayu",
+        "source": "@site/src/pages/research/projects/dayu.mdx",
+        "title": "DaYu: Optimizing Workflow Performance by Elucidating Semantic Data Flow",
+        "description": "Distributed scientific workflows nowadays face challenges in data movement through storage systems.",
+        "frontMatter": {
+          "title": "DaYu: Optimizing Workflow Performance by Elucidating Semantic Data Flow"
+        },
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/research/projects/dtio",
+        "source": "@site/src/pages/research/projects/dtio.mdx",
+        "title": "DTIO: A Data Task I/O Runtime",
+        "description": "In partnership with Argonne National Laboratory, DTIO investigates the use of a task framework for unifying complex I/O stacks and providing features such as resilience, fault-tolerance, and task replay.",
+        "frontMatter": {
+          "title": "DTIO: A Data Task I/O Runtime"
+        },
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/research/projects/hermes",
+        "source": "@site/src/pages/research/projects/hermes.mdx",
+        "title": "Hermes: Extending the HDF Library to Support Intelligent I/O Buffering for Deep Memory and Storage Hierarchy System",
+        "description": "To reduce the I/O bottleneck, complex storage hierarchies have been introduced. However, managing this complexity should not",
+        "frontMatter": {
+          "title": "Hermes: Extending the HDF Library to Support Intelligent I/O Buffering for Deep Memory and Storage Hierarchy System"
+        },
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/research/projects/",
+        "source": "@site/src/pages/research/projects/index.mdx",
+        "title": "Projects",
+        "frontMatter": {
+          "title": "Projects",
+          "hide_table_of_contents": true
+        },
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/research/projects/iris",
+        "source": "@site/src/pages/research/projects/iris.mdx",
+        "title": "IRIS: I/O Redirection Via Integrated Storage",
+        "description": "Various storage solutions exist and require specialized APIs and data models in order to use, which binds developers,",
+        "frontMatter": {
+          "title": "IRIS: I/O Redirection Via Integrated Storage"
+        },
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/research/projects/labios",
+        "source": "@site/src/pages/research/projects/labios.mdx",
+        "title": "LABIOS: A Distributed Label-Based I/O System",
+        "description": "Introduction",
+        "frontMatter": {
+          "title": "LABIOS: A Distributed Label-Based I/O System"
+        },
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/research/projects/viper",
+        "source": "@site/src/pages/research/projects/viper.mdx",
+        "title": "Viper: A High-Performance I/O Framework for Transferring Deep Neural Network Models",
+        "description": "Within a DL workflow, the scientific AI application and the inference serving system typically communicate",
+        "frontMatter": {
+          "title": "Viper: A High-Performance I/O Framework for Transferring Deep Neural Network Models"
+        },
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/research/projects/wisio",
+        "source": "@site/src/pages/research/projects/wisio.mdx",
+        "title": "WisIO: Automated I/O Bottleneck Detection via Multi-Perspective Views for HPC Workloads",
+        "description": "<img",
+        "frontMatter": {
+          "title": "WisIO: Automated I/O Bottleneck Detection via Multi-Perspective Views for HPC Workloads"
+        },
+        "unlisted": false
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-plugin-google-gtag": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

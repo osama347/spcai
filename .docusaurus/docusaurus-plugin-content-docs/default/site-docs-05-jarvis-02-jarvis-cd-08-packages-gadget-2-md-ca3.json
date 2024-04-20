@@ -1,0 +1,23 @@
+{
+  "id": "jarvis/jarvis-cd/packages/gadget2",
+  "title": "Gadget2",
+  "description": "GADGET is a freely available code for cosmological N-body/SPH simulations on massively parallel computers with distributed memory. GADGET uses an explicit communication model that is implemented with the standardized MPI communication interface. The code can be run on essentially all supercomputer systems presently in use, including clusters of workstations or individual PCs.",
+  "source": "@site/docs/05-jarvis/02-jarvis-cd/08-packages/gadget2.md",
+  "sourceDirName": "05-jarvis/02-jarvis-cd/08-packages",
+  "slug": "/jarvis/jarvis-cd/packages/gadget2",
+  "permalink": "/spcai/docs/jarvis/jarvis-cd/packages/gadget2",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DeepDriveMD",
+    "permalink": "/spcai/docs/jarvis/jarvis-cd/packages/deepdrivemd"
+  },
+  "next": {
+    "title": "Gadget",
+    "permalink": "/spcai/docs/jarvis/jarvis-cd/packages/gadget4"
+  }
+}

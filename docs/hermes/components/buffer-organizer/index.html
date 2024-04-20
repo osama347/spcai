@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-hermes/components/buffer-organizer" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.1.0">
+<title data-rh="true">Buffer Organizer | Gnosis Research Center</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://osama347.github.io/spcai/img/social-card.png"><meta data-rh="true" name="twitter:image" content="https://osama347.github.io/spcai/img/social-card.png"><meta data-rh="true" property="og:url" content="https://osama347.github.io/spcai/docs/hermes/components/buffer-organizer"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="keywords" content="high-performance computing (hpc), memory and storage systems, scalable software systems, data management, data-centric systems, research center, scalable system software, technology research, computational research, innovative technology, scientific research"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Buffer Organizer | Gnosis Research Center"><meta data-rh="true" name="description" content="The Buffer Organizer is the &quot;corrector&quot; half of our"><meta data-rh="true" property="og:description" content="The Buffer Organizer is the &quot;corrector&quot; half of our"><link data-rh="true" rel="icon" href="/spcai/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://osama347.github.io/spcai/docs/hermes/components/buffer-organizer"><link data-rh="true" rel="alternate" href="https://osama347.github.io/spcai/docs/hermes/components/buffer-organizer" hreflang="en"><link data-rh="true" rel="alternate" href="https://osama347.github.io/spcai/docs/hermes/components/buffer-organizer" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/spcai/blog/rss.xml" title="Gnosis Research Center RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/spcai/blog/atom.xml" title="Gnosis Research Center Atom Feed">
+
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9SXDPLSLB2"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-9SXDPLSLB2",{})</script><link rel="stylesheet" href="/spcai/assets/css/styles.aabcbf09.css">
+<script src="/spcai/assets/js/runtime~main.7399227e.js" defer="defer"></script>
+<script src="/spcai/assets/js/main.a4d5b2b2.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top navbar--dark"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/spcai/"><div class="navbar__logo"><img src="/spcai/img/logo.png" alt="Gnosis Research Center" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/spcai/img/logo.png" alt="Gnosis Research Center" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Gnosis Research Center</b></a><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Gnosis</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/spcai/about">About</a></li><li><a class="dropdown__link" href="/spcai/members">Members</a></li><li><a class="dropdown__link" href="/spcai/network">Network</a></li><li><a class="dropdown__link" href="/spcai/contact">Contact</a></li></ul></div><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Research</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/spcai/research/projects">Projects</a></li><li><a class="dropdown__link" href="/spcai/research/patents">Patents</a></li><li><a class="dropdown__link" href="/spcai/resources/hardware-overview">Hardware Overview</a></li></ul></div><a class="navbar__item navbar__link" href="/spcai/publications">Publications</a></div><div class="navbar__items navbar__items--right"><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/spcai/docs/index">Tutorials</a><a href="https://github.com/grc-iit" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS darkNavbarColorModeToggle_X3D1" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/spcai/docs/index">Welcome</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" href="/spcai/docs/category/linux-introduction">HPC Tutorials</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" aria-expanded="true" href="/spcai/docs/category/hermes">Hermes</a><button aria-label="Collapse sidebar category &#x27;Hermes&#x27;" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/main-scenario">Main Scenario</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/building-hermes">Building Hermes</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/deploying-hermes">Deploying Hermes</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/configuration">Configuration</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/adapters">Adapters</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/programming">Programming</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" aria-expanded="true" tabindex="0" href="/spcai/docs/hermes/components/buffer-organizer">Components</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/spcai/docs/hermes/components/buffer-organizer">Buffer Organizer</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/buffer-pool">Buffer Pool</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/buffering-target">Buffering Target</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/data-placement">Data Placement</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/data-staging">Data Staging</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/runtime">Runtime</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/distributed-metadata">Distributed Metadata</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/prefetcher">Prefetcher</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/examples">Examples</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/tagging">Tagging</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/topology">Topology</a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/containers">Containers</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/developer-guide">Developer Guide</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/doxygen">Doxygen</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/faq">Frequently Asked Questions</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" href="/spcai/docs/chronolog/index">ChronoLog</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" href="/spcai/docs/jarvis/jarvis-util/index">Jarvis</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" aria-expanded="false" href="/spcai/docs/category/ares-research-cluster">Ares Research Cluster</a><button aria-label="Expand sidebar category &#x27;Ares Research Cluster&#x27;" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/spcai/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/spcai/docs/category/hermes"><span itemprop="name">Hermes</span></a><meta itemprop="position" content="1"></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Components</span><meta itemprop="position" content="2"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Buffer Organizer</span><meta itemprop="position" content="3"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><h1>Buffer Organizer</h1>
+<p>The <strong>Buffer Organizer</strong> is the &quot;corrector&quot; half of our
+predictor/corrector model. It attempts to correct sub-optimal DPE
+placements by moving data among buffers.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="objectives">Objectives<a href="#objectives" class="hash-link" aria-label="Direct link to Objectives" title="Direct link to Objectives">​</a></h2>
+<ul>
+<li>Management of hierarchical buffering space<!-- -->
+<ul>
+<li>Data flushing</li>
+<li>Read acceleration</li>
+</ul>
+</li>
+<li>Manage data life cycle, or journey<!-- -->
+<ul>
+<li>When is the blob in equilibrium?</li>
+<li>How do we eliminate unnecessary data movement?</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="blob-scoring">Blob Scoring<a href="#blob-scoring" class="hash-link" aria-label="Direct link to Blob Scoring" title="Direct link to Blob Scoring">  ​</a></h2>
+<p>We attempt to meet the above objectives via a <code>Blob</code> scoring system. Each <code>Blob</code> has two different scores associated with it: the <strong>importance score</strong> and the <strong>access score</strong>.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="importance-score">Importance Score<a href="#importance-score" class="hash-link" aria-label="Direct link to Importance Score" title="Direct link to Importance Score">​</a></h3>
+<p>The importance score is a real number in the range [0, 1] where 0 represents a <code>Blob</code> that is not important to the user (i.e., it will not be accessed) and 1 represents a <code>Blob</code> that will be accessed either very frequently, very soon, or both.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="variables-that-might-contribute-to-the-importance-score">Variables that might contribute to the importance score<a href="#variables-that-might-contribute-to-the-importance-score" class="hash-link" aria-label="Direct link to Variables that might contribute to the importance score" title="Direct link to Variables that might contribute to the importance score">​</a></h4>
+<ul>
+<li>Blob Size</li>
+<li>Blob Name</li>
+<li>Recency of Blob access</li>
+<li>Frequency of Blob access</li>
+<li>User-supplied priority (this is only a hint, not a guarantee).</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="access-score">Access Score<a href="#access-score" class="hash-link" aria-label="Direct link to Access Score" title="Direct link to Access Score">​</a></h3>
+<p>This is a real number in the range [0, 1] where 0 represents a <code>Blob</code> with the slowest access time (i.e., all its <code>Buffer</code>s are in the slowest tier) and 1 represents a <code>Blob</code> with the quickest access time (all the <code>Buffer</code>s are in the fastest tier).</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="variables-that-contribute-to-the-access-score">Variables that contribute to the access score<a href="#variables-that-contribute-to-the-access-score" class="hash-link" aria-label="Direct link to Variables that contribute to the access score" title="Direct link to Variables that contribute to the access score">​</a></h4>
+<ul>
+<li>Bandwidth of the tiers that contain the <code>Blob</code>&#x27;s <code>Buffer</code>s.</li>
+<li>The <code>Blob</code> distribution (i.e., is all the data in a single <code>Buffer</code>, or is it spread out among multiple <code>Buffer</code>s on multiple nodes?).</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-the-scores-are-used">How the scores are used<a href="#how-the-scores-are-used" class="hash-link" aria-label="Direct link to How the scores are used" title="Direct link to How the scores are used">​</a></h3>
+<p>The goal of the <code>BufferOrganizer</code> is to ensure that each <code>Blob</code>&#x27;s access score is closely aligned to its importance score.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ideas">Ideas<a href="#ideas" class="hash-link" aria-label="Direct link to Ideas" title="Direct link to Ideas">​</a></h2>
+<ul>
+<li>If a <code>Blob</code>&#x27;s <code>Bucket</code> has a reference count of 0 (i.e., no process has an open handle to the <code>Bucket</code>) then the importance score should be 0. The score is only calculated once at least one process opens the <code>Bucket</code>.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="operations">Operations<a href="#operations" class="hash-link" aria-label="Direct link to Operations" title="Direct link to Operations">​</a></h2>
+<p>All <code>BufferOrganizer</code> operations are implemented in terms of 3 simple
+operators</p>
+<ul>
+<li>MOVE(BufferID, TargetID)</li>
+<li>COPY(BufferID, TargetID)</li>
+<li>DELETE(BufferID)</li>
+</ul>
+<p>With these operators, we can build more complex tasks:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="transfer">Transfer<a href="#transfer" class="hash-link" aria-label="Direct link to Transfer" title="Direct link to Transfer">​</a></h3>
+<p>Move a <code>BufferID</code> from one set of <code>Target</code>s to another.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="who-can-initiate-transfer-tasks">Who can initiate Transfer tasks?<a href="#who-can-initiate-transfer-tasks" class="hash-link" aria-label="Direct link to Who can initiate Transfer tasks?" title="Direct link to Who can initiate Transfer tasks?">​</a></h4>
+<ul>
+<li>The System (load balancing)</li>
+<li>The User (producer/consumer)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="evictsize_t-bytes-targets">Evict(size_t bytes, Targets[])<a href="#evictsize_t-bytes-targets" class="hash-link" aria-label="Direct link to Evict(size_t bytes, Targets[])" title="Direct link to Evict(size_t bytes, Targets[])">​</a></h3>
+<p>Move a set of <code>BufferId</code>s from one set of <code>Target</code>s to an unspecified
+location (could even be swap space).</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="who-can-initiate-eviction-tasks">Who can initiate Eviction tasks?<a href="#who-can-initiate-eviction-tasks" class="hash-link" aria-label="Direct link to Who can initiate Eviction tasks?" title="Direct link to Who can initiate Eviction tasks?">​</a></h4>
+<ul>
+<li>Put (DPE)</li>
+<li>Get (Prefetcher)</li>
+<li>Thread that updates the <code>SystemViewState</code> (enforces a minimum
+capacity threshold passed in through the config).</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="who-translates-an-eviction-into-a-series-of-transfers">Who translates an Eviction into a series of Transfers?<a href="#who-translates-an-eviction-into-a-series-of-transfers" class="hash-link" aria-label="Direct link to Who translates an Eviction into a series of Transfers?" title="Direct link to Who translates an Eviction into a series of Transfers?">​</a></h4>
+<ul>
+<li>DPE?</li>
+<li>BO?</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="single-shared-file-pros">Single shared file pros<a href="#single-shared-file-pros" class="hash-link" aria-label="Direct link to Single shared file pros" title="Direct link to Single shared file pros">​</a></h4>
+<ul>
+<li>Could theoretically reap performance benefits of collective IO
+operations, although I don&#x27;t think we&#x27;ll ever be able to capitalize
+on this because each rank must act independently and can&#x27;t
+synchronize with the other ranks.</li>
+<li>Less stress on the PFS metadata server.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="file-per-rank-pros">File per rank pros<a href="#file-per-rank-pros" class="hash-link" aria-label="Direct link to File per rank pros" title="Direct link to File per rank pros">​</a></h4>
+<ul>
+<li>Don&#x27;t have to worry about reserving size for each rank.</li>
+<li>Don&#x27;t have to worry about locking.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="file-per-node">File per node<a href="#file-per-node" class="hash-link" aria-label="Direct link to File per node" title="Direct link to File per node">​</a></h4>
+<ul>
+<li>We&#x27;ll go with this for the initial implementation.</li>
+<li>Don&#x27;t have to worry about locking or reserving size with respect to
+the buffer organizer. However, since multiple ranks could
+potentially write to the same swap file, we need to either<!-- -->
+<ul>
+<li>Filter all swap traffic through the buffer organizer</li>
+<li>Synchronize all access to the file</li>
+</ul>
+</li>
+<li>Won&#x27;t overload the metadata servers as bad as file per rank.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="triggers">Triggers<a href="#triggers" class="hash-link" aria-label="Direct link to Triggers" title="Direct link to Triggers">​</a></h2>
+<p>The Buffer Organizer can be triggered in 3 ways:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="periodic">Periodic<a href="#periodic" class="hash-link" aria-label="Direct link to Periodic" title="Direct link to Periodic">​</a></h3>
+<p>The period can be controlled by a configuration variable.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="client-triggered">Client-triggered<a href="#client-triggered" class="hash-link" aria-label="Direct link to Client-triggered" title="Direct link to Client-triggered">​</a></h3>
+<ul>
+<li>If, for any reason, a client DPE places data to the swap target, it
+will also trigger the buffer organizer by adding an event to the
+buffer organizer&#x27;s queue.</li>
+<li>We store the blob name, the offset into the swap target (for
+file-based targets), and the blob size.</li>
+<li>When the buffer organizer processes an event, it</li>
+</ul>
+<ol>
+<li>Reads the blob from the swap target into memory.</li>
+<li>Calls <code>Put</code> to place the blob into the hierarchy. If the <code>Put</code>
+fails, it tries again, up to <code>num_buffer_organizer_retries</code>
+(configurable) times.</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="system-triggered">System-triggered<a href="#system-triggered" class="hash-link" aria-label="Direct link to System-triggered" title="Direct link to System-triggered">​</a></h3>
+<ul>
+<li>Nothing is implemented yet.</li>
+<li>Should the BO constantly monitor the buffering hierarchy and attempt
+to maintain a set of rules (remaining capacity percentage,
+thresholds, etc.)?</li>
+<li>Should the BO simply carry out &quot;orders&quot; and not attempt to make its
+own decisions? If so, who gives the orders?</li>
+<li>Should the BO be available for other asynchronous tasks?</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="requirements-for-queue-implementation">Requirements for Queue implementation<a href="#requirements-for-queue-implementation" class="hash-link" aria-label="Direct link to Requirements for Queue implementation" title="Direct link to Requirements for Queue implementation">​</a></h3>
+<ul>
+<li>(At least) 2 different priority lanes</li>
+<li>Node local and remote queues (but only for neighborhoods, not global
+queues).</li>
+<li>Need ability to restrict queue length</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="design-details">Design Details<a href="#design-details" class="hash-link" aria-label="Direct link to Design Details" title="Direct link to Design Details">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bo-rpc-server">BO RPC Server<a href="#bo-rpc-server" class="hash-link" aria-label="Direct link to BO RPC Server" title="Direct link to BO RPC Server">​</a></h3>
+<ul>
+<li>RPC is used to route <code>BoTask</code>s to the appropriate Hermes core.</li>
+</ul>
+<ul>
+<li>The <code>BO</code> RPC server only has one function:<!-- -->
+<div class="language-cpp codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-cpp codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">bool</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">EnqueueBoTask</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">BoTask task</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> Priority priority</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+</ul>
+<p>[[../images/bo_rpc.png]]</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="buffer-organizer-1">Buffer Organizer<a href="#buffer-organizer-1" class="hash-link" aria-label="Direct link to Buffer Organizer" title="Direct link to Buffer Organizer">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="work-queues">Work Queues<a href="#work-queues" class="hash-link" aria-label="Direct link to Work Queues" title="Direct link to Work Queues">​</a></h4>
+<ul>
+<li>Argobots <strong>pool</strong>s</li>
+<li>High and low priorities</li>
+<li>Basic FIFO queue by default</li>
+<li>Completely customizable (e.g., could be a priority queue, min-heap,
+etc.)</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="schedulers">Schedulers<a href="#schedulers" class="hash-link" aria-label="Direct link to Schedulers" title="Direct link to Schedulers">​</a></h4>
+<ul>
+<li>Argobots <strong>scheduler</strong>s</li>
+<li>Takes tasks from the queues and runs them on OS threads as user
+level threads (basically coroutines).</li>
+<li>Completely customizable.</li>
+<li>By default, one scheduler is associated with a single execution
+stream (OS thread).</li>
+<li>Only take tasks from low priority queue if high priority queue is
+empty?</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="threads">Threads<a href="#threads" class="hash-link" aria-label="Direct link to Threads" title="Direct link to Threads">​</a></h4>
+<ul>
+<li>Argobots <strong>execution stream</strong>s</li>
+<li>Bound to a <strong>processing element</strong> (CPU core or hyperthread), and
+shouldn&#x27;t be oversubscribed.</li>
+</ul>
+<p><img loading="lazy" src="/spcai/assets/images/bo-9412e1ce05035896279ca164b1375068.png" width="643" height="495" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="example-flows">Example Flows<a href="#example-flows" class="hash-link" aria-label="Direct link to Example Flows" title="Direct link to Example Flows">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="hot-put">Hot Put<a href="#hot-put" class="hash-link" aria-label="Direct link to Hot Put" title="Direct link to Hot Put">​</a></h3>
+<p><img loading="lazy" src="/spcai/assets/images/hot_put-0d2d32fadedf6f594a46ecc415ad16d0.png" width="378" height="956" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bo-eviction-flow">BO Eviction Flow<a href="#bo-eviction-flow" class="hash-link" aria-label="Direct link to BO Eviction Flow" title="Direct link to BO Eviction Flow">​</a></h3>
+<p><img loading="lazy" src="/spcai/assets/images/bo_evict-f585db845536915d3efa4b9225efce29.png" width="553" height="524" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ideas-1">Ideas<a href="#ideas-1" class="hash-link" aria-label="Direct link to Ideas" title="Direct link to Ideas">​</a></h2>
+<ul>
+<li>An importance score of 0 could be the signal to flush a <code>Blob</code> to the PFS.</li>
+<li><code>StageIn</code> and <code>StageOut</code> APIs</li>
+<li>Reverse &quot;gravity&quot; for read heavy workloads. <code>Blobs</code> trickle up to higher tiers.</li>
+<li>Explicitly maintain Target capacity thresholds.</li>
+<li>Introduce horizontal movement if Topology threshold is exceeded.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="experiments">Experiments<a href="#experiments" class="hash-link" aria-label="Direct link to Experiments" title="Direct link to Experiments">​</a></h2>
+<ul>
+<li>Test the difference between flushing tier by tier vs skipping tiers. For example, a <code>Blob</code> moving from RAM to burst buffer could go through NVMe as an intermediate tier, or skip it altogether.</li>
+</ul></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/spcai/docs/hermes/programming"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Programming</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/spcai/docs/hermes/components/buffer-pool"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Buffer Pool</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#objectives" class="table-of-contents__link toc-highlight">Objectives</a></li><li><a href="#blob-scoring" class="table-of-contents__link toc-highlight">Blob Scoring</a><ul><li><a href="#importance-score" class="table-of-contents__link toc-highlight">Importance Score</a></li><li><a href="#access-score" class="table-of-contents__link toc-highlight">Access Score</a></li><li><a href="#how-the-scores-are-used" class="table-of-contents__link toc-highlight">How the scores are used</a></li></ul></li><li><a href="#ideas" class="table-of-contents__link toc-highlight">Ideas</a></li><li><a href="#operations" class="table-of-contents__link toc-highlight">Operations</a><ul><li><a href="#transfer" class="table-of-contents__link toc-highlight">Transfer</a></li><li><a href="#evictsize_t-bytes-targets" class="table-of-contents__link toc-highlight">Evict(size_t bytes, Targets[])</a></li></ul></li><li><a href="#triggers" class="table-of-contents__link toc-highlight">Triggers</a><ul><li><a href="#periodic" class="table-of-contents__link toc-highlight">Periodic</a></li><li><a href="#client-triggered" class="table-of-contents__link toc-highlight">Client-triggered</a></li><li><a href="#system-triggered" class="table-of-contents__link toc-highlight">System-triggered</a></li><li><a href="#requirements-for-queue-implementation" class="table-of-contents__link toc-highlight">Requirements for Queue implementation</a></li></ul></li><li><a href="#design-details" class="table-of-contents__link toc-highlight">Design Details</a><ul><li><a href="#bo-rpc-server" class="table-of-contents__link toc-highlight">BO RPC Server</a></li><li><a href="#buffer-organizer-1" class="table-of-contents__link toc-highlight">Buffer Organizer</a></li></ul></li><li><a href="#example-flows" class="table-of-contents__link toc-highlight">Example Flows</a><ul><li><a href="#hot-put" class="table-of-contents__link toc-highlight">Hot Put</a></li><li><a href="#bo-eviction-flow" class="table-of-contents__link toc-highlight">BO Eviction Flow</a></li></ul></li><li><a href="#ideas-1" class="table-of-contents__link toc-highlight">Ideas</a></li><li><a href="#experiments" class="table-of-contents__link toc-highlight">Experiments</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Gnosis Research Center</div><ul class="footer__items clean-list"><li class="footer__item">
+                  <p>
+                    Stuart Building <br>
+                    Room 112i and 010 <br>
+                    10 W. 31st Street <br>
+                    Chicago, Illinois 60616
+                  </p>
+                </li><li class="footer__item">
+                  <p>
+                    Email: <a href="mailto:grc@iit.edu" target="_blank" rel="noopener noreferrer">grc@iit.edu</a> <br>
+                    Phone: <a href="tel:3125676885" target="_blank" rel="noopener noreferrer">+1 312 567 6885</a>
+                  </p>
+                </li></ul></div><div class="col footer__col"><div class="footer__title">Featured Projects</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/spcai/research/projects/chronolog">ChronoLog</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/research/projects/labios">Labios</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/research/projects/coeus">Coeus</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/research/projects/hermes">Hermes</a></li></ul></div><div class="col footer__col"><div class="footer__title">Tutorials</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/spcai/docs/category/linux-introduction">Linux Introduction</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/docs/category/installing-hpc-software">Installing HPC Software</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/docs/category/important-environment-variables">Important Environment Variables</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/docs/category/c-introduction">C++ Introduction</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/docs/category/ares-research-cluster">Ares User Guide</a></li></ul></div><div class="col footer__col"><div class="footer__title">Links</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/grc-iit" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.linkedin.com/company/gnosis-research-center/" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC LinkedIn<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://twitter.com/grc_iit" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC X<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.youtube.com/channel/UCNtEyAt4_ckpIbX-gSv8sww" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC YouTube<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.iit.edu/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Illinois Tech<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="http://cs.iit.edu/~scs/" target="_blank" rel="noopener noreferrer" class="footer__link-item">SCS Lab<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 Gnosis Research Center (GRC).</div></div></div></footer></div>
+</body>
+</html>

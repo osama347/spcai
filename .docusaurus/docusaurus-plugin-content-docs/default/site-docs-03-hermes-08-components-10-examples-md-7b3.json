@@ -1,0 +1,24 @@
+{
+  "id": "hermes/components/examples",
+  "title": "Examples",
+  "description": "Ares (IIT)",
+  "source": "@site/docs/03-hermes/08-components/10-examples.md",
+  "sourceDirName": "03-hermes/08-components",
+  "slug": "/hermes/components/examples",
+  "permalink": "/spcai/docs/hermes/components/examples",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Prefetcher",
+    "permalink": "/spcai/docs/hermes/components/prefetcher"
+  },
+  "next": {
+    "title": "Tagging",
+    "permalink": "/spcai/docs/hermes/components/tagging"
+  }
+}

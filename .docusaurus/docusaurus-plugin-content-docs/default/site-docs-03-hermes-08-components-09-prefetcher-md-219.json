@@ -1,0 +1,24 @@
+{
+  "id": "hermes/components/prefetcher",
+  "title": "Prefetcher",
+  "description": "The objective of the Prefetcher is to promote and demote content which is",
+  "source": "@site/docs/03-hermes/08-components/09-prefetcher.md",
+  "sourceDirName": "03-hermes/08-components",
+  "slug": "/hermes/components/prefetcher",
+  "permalink": "/spcai/docs/hermes/components/prefetcher",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Distributed Metadata",
+    "permalink": "/spcai/docs/hermes/components/distributed-metadata"
+  },
+  "next": {
+    "title": "Examples",
+    "permalink": "/spcai/docs/hermes/components/examples"
+  }
+}

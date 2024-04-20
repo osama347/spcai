@@ -1,0 +1,24 @@
+{
+  "id": "jarvis/jarvis-util/program-execution",
+  "title": "Program Execution",
+  "description": "Exec is used to execute a binary program as a subprocess in Python. Exec can be used for local, remote, or parallel execution of code. Exec is currently a wrapper around the following libraries:",
+  "source": "@site/docs/05-jarvis/01-jarvis-util/02-program-execution.md",
+  "sourceDirName": "05-jarvis/01-jarvis-util",
+  "slug": "/jarvis/jarvis-util/program-execution",
+  "permalink": "/spcai/docs/jarvis/jarvis-util/program-execution",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/spcai/docs/jarvis/jarvis-util/index"
+  },
+  "next": {
+    "title": "Built-in Wrappers",
+    "permalink": "/spcai/docs/jarvis/jarvis-util/builtin-wrappers"
+  }
+}

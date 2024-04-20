@@ -1,0 +1,24 @@
+{
+  "id": "hpc-tutorials/cpp-introduction/hello-world",
+  "title": "Hello World",
+  "description": "Choosing a Compiler",
+  "source": "@site/docs/02-hpc-tutorials/04-cpp-introduction/01-hello-world.md",
+  "sourceDirName": "02-hpc-tutorials/04-cpp-introduction",
+  "slug": "/hpc-tutorials/cpp-introduction/hello-world",
+  "permalink": "/spcai/docs/hpc-tutorials/cpp-introduction/hello-world",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "C++ Introduction",
+    "permalink": "/spcai/docs/category/c-introduction"
+  },
+  "next": {
+    "title": "Hermes",
+    "permalink": "/spcai/docs/category/hermes"
+  }
+}

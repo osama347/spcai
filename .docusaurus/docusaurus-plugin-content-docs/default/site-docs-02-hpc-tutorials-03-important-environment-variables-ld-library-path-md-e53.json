@@ -1,0 +1,23 @@
+{
+  "id": "hpc-tutorials/important-environment-variables/ld-library-path",
+  "title": "LD_LIBRARY_PATH",
+  "description": "LDLIBRARYPATH is used by Linux to locate shared objects at runtime (as opposed to compile-time).",
+  "source": "@site/docs/02-hpc-tutorials/03-important-environment-variables/ld-library-path.md",
+  "sourceDirName": "02-hpc-tutorials/03-important-environment-variables",
+  "slug": "/hpc-tutorials/important-environment-variables/ld-library-path",
+  "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/ld-library-path",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "JAVA_HOME",
+    "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/java-home"
+  },
+  "next": {
+    "title": "LD_PRELOAD",
+    "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/ld-preload"
+  }
+}

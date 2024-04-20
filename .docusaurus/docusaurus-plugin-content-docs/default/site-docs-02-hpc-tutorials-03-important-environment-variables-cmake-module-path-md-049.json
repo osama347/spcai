@@ -1,0 +1,23 @@
+{
+  "id": "hpc-tutorials/important-environment-variables/cmake-module-path",
+  "title": "CMAKE_MODULE_PATH",
+  "description": "CMAKEMODULEPATH is used by CMake to identify the location of CMake modules.",
+  "source": "@site/docs/02-hpc-tutorials/03-important-environment-variables/cmake-module-path.md",
+  "sourceDirName": "02-hpc-tutorials/03-important-environment-variables",
+  "slug": "/hpc-tutorials/important-environment-variables/cmake-module-path",
+  "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/cmake-module-path",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Important Environment Variables",
+    "permalink": "/spcai/docs/category/important-environment-variables"
+  },
+  "next": {
+    "title": "CMAKE_PREFIX_PATH",
+    "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/cmake-prefix-path"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "hpc-tutorials/important-environment-variables/cpath",
+  "title": "CPATH",
+  "description": "GCC and Clang search each path in CPATH and sometimes INCLUDE_PATH for header files.",
+  "source": "@site/docs/02-hpc-tutorials/03-important-environment-variables/cpath.md",
+  "sourceDirName": "02-hpc-tutorials/03-important-environment-variables",
+  "slug": "/hpc-tutorials/important-environment-variables/cpath",
+  "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/cpath",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CMAKE_PREFIX_PATH",
+    "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/cmake-prefix-path"
+  },
+  "next": {
+    "title": "JAVA_HOME",
+    "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/java-home"
+  }
+}

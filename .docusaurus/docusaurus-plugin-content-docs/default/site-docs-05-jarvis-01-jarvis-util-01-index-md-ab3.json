@@ -1,0 +1,24 @@
+{
+  "id": "jarvis/jarvis-util/index",
+  "title": "Introduction",
+  "description": "jarvis-util contains various helpers which are useful for executing programs external to python within Python. We provide various wrappers to support parallel execution (MPI, PSSH), remote execution (SSH), and local execution (exec/fork). We also provide functions which wrap around various helpful commands, such as filesystem commands (ls, rm, pkill, mkdir).",
+  "source": "@site/docs/05-jarvis/01-jarvis-util/01-index.md",
+  "sourceDirName": "05-jarvis/01-jarvis-util",
+  "slug": "/jarvis/jarvis-util/index",
+  "permalink": "/spcai/docs/jarvis/jarvis-util/index",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/spcai/docs/chronolog/index"
+  },
+  "next": {
+    "title": "Program Execution",
+    "permalink": "/spcai/docs/jarvis/jarvis-util/program-execution"
+  }
+}

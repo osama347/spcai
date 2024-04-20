@@ -1,0 +1,24 @@
+{
+  "id": "hermes/main-scenario",
+  "title": "Main Scenario",
+  "description": "Hermes 1.1.0 is now available! [Download",
+  "source": "@site/docs/03-hermes/01-main-scenario.md",
+  "sourceDirName": "03-hermes",
+  "slug": "/hermes/main-scenario",
+  "permalink": "/spcai/docs/hermes/main-scenario",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hermes",
+    "permalink": "/spcai/docs/category/hermes"
+  },
+  "next": {
+    "title": "Building Hermes",
+    "permalink": "/spcai/docs/hermes/building-hermes"
+  }
+}

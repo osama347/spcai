@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/spcai/research/projects/wisio",
+  "source": "@site/src/pages/research/projects/wisio.mdx",
+  "title": "WisIO: Automated I/O Bottleneck Detection via Multi-Perspective Views for HPC Workloads",
+  "description": "<img",
+  "frontMatter": {
+    "title": "WisIO: Automated I/O Bottleneck Detection via Multi-Perspective Views for HPC Workloads"
+  },
+  "unlisted": false
+}

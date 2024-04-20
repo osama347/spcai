@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/spcai/publications",
+  "source": "@site/src/pages/publications.mdx",
+  "title": "Publications",
+  "frontMatter": {
+    "title": "Publications",
+    "hide_table_of_contents": true
+  },
+  "unlisted": false
+}

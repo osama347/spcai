@@ -1,0 +1,24 @@
+{
+  "id": "hermes/doxygen",
+  "title": "Doxygen",
+  "description": "The Doxygen portion of the Hermes documentation can be built as follows:",
+  "source": "@site/docs/03-hermes/11-doxygen.md",
+  "sourceDirName": "03-hermes",
+  "slug": "/hermes/doxygen",
+  "permalink": "/spcai/docs/hermes/doxygen",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Developer Guide",
+    "permalink": "/spcai/docs/hermes/developer-guide"
+  },
+  "next": {
+    "title": "Frequently Asked Questions",
+    "permalink": "/spcai/docs/hermes/faq"
+  }
+}

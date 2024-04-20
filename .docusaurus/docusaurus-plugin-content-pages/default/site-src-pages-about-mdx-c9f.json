@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/spcai/about",
+  "source": "@site/src/pages/about.mdx",
+  "title": "About",
+  "description": "Vision",
+  "frontMatter": {
+    "title": "About"
+  },
+  "unlisted": false
+}

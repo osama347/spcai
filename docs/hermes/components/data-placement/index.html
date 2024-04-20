@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-hermes/components/data-placement" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.1.0">
+<title data-rh="true">Data Placement | Gnosis Research Center</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://osama347.github.io/spcai/img/social-card.png"><meta data-rh="true" name="twitter:image" content="https://osama347.github.io/spcai/img/social-card.png"><meta data-rh="true" property="og:url" content="https://osama347.github.io/spcai/docs/hermes/components/data-placement"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="keywords" content="high-performance computing (hpc), memory and storage systems, scalable software systems, data management, data-centric systems, research center, scalable system software, technology research, computational research, innovative technology, scientific research"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Data Placement | Gnosis Research Center"><meta data-rh="true" name="description" content="Every Hermes system instance includes one or more Hermes nodes."><meta data-rh="true" property="og:description" content="Every Hermes system instance includes one or more Hermes nodes."><link data-rh="true" rel="icon" href="/spcai/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://osama347.github.io/spcai/docs/hermes/components/data-placement"><link data-rh="true" rel="alternate" href="https://osama347.github.io/spcai/docs/hermes/components/data-placement" hreflang="en"><link data-rh="true" rel="alternate" href="https://osama347.github.io/spcai/docs/hermes/components/data-placement" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/spcai/blog/rss.xml" title="Gnosis Research Center RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/spcai/blog/atom.xml" title="Gnosis Research Center Atom Feed">
+
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9SXDPLSLB2"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-9SXDPLSLB2",{})</script><link rel="stylesheet" href="/spcai/assets/css/styles.aabcbf09.css">
+<script src="/spcai/assets/js/runtime~main.7399227e.js" defer="defer"></script>
+<script src="/spcai/assets/js/main.a4d5b2b2.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top navbar--dark"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/spcai/"><div class="navbar__logo"><img src="/spcai/img/logo.png" alt="Gnosis Research Center" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/spcai/img/logo.png" alt="Gnosis Research Center" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Gnosis Research Center</b></a><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Gnosis</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/spcai/about">About</a></li><li><a class="dropdown__link" href="/spcai/members">Members</a></li><li><a class="dropdown__link" href="/spcai/network">Network</a></li><li><a class="dropdown__link" href="/spcai/contact">Contact</a></li></ul></div><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Research</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/spcai/research/projects">Projects</a></li><li><a class="dropdown__link" href="/spcai/research/patents">Patents</a></li><li><a class="dropdown__link" href="/spcai/resources/hardware-overview">Hardware Overview</a></li></ul></div><a class="navbar__item navbar__link" href="/spcai/publications">Publications</a></div><div class="navbar__items navbar__items--right"><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/spcai/docs/index">Tutorials</a><a href="https://github.com/grc-iit" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS darkNavbarColorModeToggle_X3D1" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/spcai/docs/index">Welcome</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" href="/spcai/docs/category/linux-introduction">HPC Tutorials</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" aria-expanded="true" href="/spcai/docs/category/hermes">Hermes</a><button aria-label="Collapse sidebar category &#x27;Hermes&#x27;" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/main-scenario">Main Scenario</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/building-hermes">Building Hermes</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/deploying-hermes">Deploying Hermes</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/configuration">Configuration</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/adapters">Adapters</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/programming">Programming</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" aria-expanded="true" tabindex="0" href="/spcai/docs/hermes/components/buffer-organizer">Components</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/buffer-organizer">Buffer Organizer</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/buffer-pool">Buffer Pool</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/buffering-target">Buffering Target</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/spcai/docs/hermes/components/data-placement">Data Placement</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/data-staging">Data Staging</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/runtime">Runtime</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/distributed-metadata">Distributed Metadata</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/prefetcher">Prefetcher</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/examples">Examples</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/tagging">Tagging</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/components/topology">Topology</a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/containers">Containers</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/developer-guide">Developer Guide</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/doxygen">Doxygen</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/spcai/docs/hermes/faq">Frequently Asked Questions</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" href="/spcai/docs/chronolog/index">ChronoLog</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" href="/spcai/docs/jarvis/jarvis-util/index">Jarvis</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" aria-expanded="false" href="/spcai/docs/category/ares-research-cluster">Ares Research Cluster</a><button aria-label="Expand sidebar category &#x27;Ares Research Cluster&#x27;" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/spcai/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/spcai/docs/category/hermes"><span itemprop="name">Hermes</span></a><meta itemprop="position" content="1"></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Components</span><meta itemprop="position" content="2"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Data Placement</span><meta itemprop="position" content="3"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><h1>Data Placement</h1>
+<p>Every Hermes system instance includes one or more Hermes <em>nodes</em>.</p>
+<p>A <em>destination</em> is a buffering resource that can be identified by a pair
+of node + target &quot;coordinates.&quot;</p>
+<p>Each target $<code>t_k</code>$ has characteristics such as the following:</p>
+<ul>
+<li>A capacity $<code>Cap[t_k]</code>$</li>
+<li>A remaining capacity $<code>Rem[t_k]</code>$</li>
+<li>A speed (or throughput) $<code>Speed[...,t_k]</code>$<!-- -->
+<ul>
+<li>This is the mean of the throughputs of all ranks associated with
+the destination&#x27;s node.</li>
+<li><strong>Fix this!</strong> Speed is really a function of the origin.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Note:</strong> At any point in time, there&#x27;s a degree of <em>uncertainty</em> to
+some of the destination characteristics. For example, the remaining
+capacity of a destination is typically obtained from a global metadata (MD)
+structure that is updated asynchronously. Only the Hermes node buffer
+pool managers have the precise value(s) for the pool under their
+management.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-data-placement-problem">The Data Placement Problem<a href="#the-data-placement-problem" class="hash-link" aria-label="Direct link to The Data Placement Problem" title="Direct link to The Data Placement Problem">​</a></h2>
+<p>Given <em>N</em> storage targets, a data placement policy <em>P</em>, a cost function <em>F</em>, and a <em>BLOB</em>,
+a data placement consists of a BLOB partitioning and an assignment of those parts to storage targets
+that satisfies the constraints of the data placement policy and that minimizes the cost function.</p>
+<ul>
+<li>Epoch - interval within which we update targets (status).<!-- -->
+<ul>
+<li>Static (e.g., time interval or number of operations)</li>
+<li>Dynamic, i.e., computed by the delta of status</li>
+</ul>
+</li>
+</ul>
+<p>[optional] Placement window - interval within which we make data
+placement decisions.</p>
+<ul>
+<li>Timer expired or I/O operation count reached, which ever comes
+first.</li>
+<li>Static (e.g., time interval or number of operations)</li>
+<li>Dynamic, i.e., number of put operations</li>
+</ul>
+<p>Epoch and placement window could be aligned (static mode).</p>
+<p>The data placement is done within Data Placement Engine (DPE) component
+in HERMES.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-data-placement-loop">The Data Placement Loop<a href="#the-data-placement-loop" class="hash-link" aria-label="Direct link to The Data Placement Loop" title="Direct link to The Data Placement Loop">​</a></h2>
+<p>A <em>placement schema</em> $<code>PS(b)</code>$ of a BLOB $<code>b (&gt;0)</code>$ is a decomposition
+$<code>b = s_1+\cdots+s_k,\; s_i\in\mathbb{N}\setminus\{0\}</code>$ together with a
+target mapping $<code>(s_1,\ldots,s_k)\mapsto(t_1(s_1),\ldots,t_k(s_k))</code>$.</p>
+<p>A sequence of buffer IDs $<code>(ID_1,\ldots,ID_A)</code>$ <em>conforms</em> to a target
+assignment $<code>(s, t)</code>$, iff $<code>s = \sum_{i=1}^A Size(ID_i)</code>$ and
+$<code>\forall i\;Target(ID_i) = t</code>$.</p>
+<p>An <em>allocation of a placement schema</em> is a sequence of buffer IDs which
+is the concatenation of conforming target assignments.</p>
+<ol>
+<li>Given: a vector of BLOBs $<code>(b_1, b_2,\ldots, b_B)</code>$</li>
+<li>The DPE creates placement schemas $<code>PS(b_i),\;1\leq i\leq B</code>$.</li>
+<li>The placement schemas are presented to the buffer manager, which,
+for each placement schema, returns an allocation of that schema (or
+an error), and updates the underlying metadata structures.</li>
+<li>I/O clients transfer data from the BLOBs to the buffers.</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="problem-to-solve-in-dpe">Problem to Solve in DPE<a href="#problem-to-solve-in-dpe" class="hash-link" aria-label="Direct link to Problem to Solve in DPE" title="Direct link to Problem to Solve in DPE">​</a></h2>
+<p>Input:</p>
+<ul>
+<li>Vector of BLOBs $<code>(b_1, b_2,\ldots, b_B)</code>$.</li>
+<li>Vector of targets $<code>(t_1, t_2,\ldots, t_D)</code>$.</li>
+<li>Vector of target remaining capacities $<code>Rem[t_k], \;1\leq k\leq D</code>$.</li>
+<li>Vector of target speed $<code>Speed[t_k], \;1\leq k\leq D</code>$.</li>
+</ul>
+<p>Output:</p>
+<ul>
+<li>Placement schema
+$<code>(s_1,\ldots,s_k)\mapsto(t_1(s_1),\ldots,t_k(s_k))</code>$, where
+$<code>b (&gt;0)</code>$ is a decomposition
+$<code>b = s_1+\cdots+s_k,\; s_i\in\mathbb{N}\setminus\{0\}</code>$</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="data-placement-solution">Data Placement Solution<a href="#data-placement-solution" class="hash-link" aria-label="Direct link to Data Placement Solution" title="Direct link to Data Placement Solution">​</a></h2>
+<ol>
+<li>Pick a DP solver to obtain a <em>placement schema</em>.<!-- -->
+<ul>
+<li>Linear programming<!-- -->
+<ul>
+<li>Constraints</li>
+<li>Objective function</li>
+</ul>
+</li>
+<li>Round-robin<!-- -->
+<ul>
+<li>Granularity</li>
+</ul>
+</li>
+<li>Random<!-- -->
+<ul>
+<li>Distribution(s)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Use the buffer pool&#x27;s &quot;coin selector&quot; to convert into buffer IDs.</li>
+<li>Handle two types of potential errors.<!-- -->
+<ul>
+<li>DP solver failure: This can happen because of outdated target
+status, i.e., insufficient capacity, constraint infeasibility,
+etc.<!-- -->
+<ul>
+<li>Solution to insufficient capacity: epoch, decision windows,
+swap space.</li>
+<li>Solution to constraint infeasibility: buffer reorganization,
+target filtering.</li>
+</ul>
+</li>
+<li>Coin selection failure: This can happen because of outdated
+state view information, e.g., outdated remaining capacities.<!-- -->
+<ul>
+<li>Solution: epoch, decision windows, swap space.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="error-handling">Error Handling<a href="#error-handling" class="hash-link" aria-label="Direct link to Error Handling" title="Direct link to Error Handling">​</a></h3>
+<p>In both cases, the list of targets is inappropriate and needs to be
+updated or changed.</p>
+<p>The list of &quot;relevant destinations&quot; for a rank is assembled by the
+Hermes node <em>topology generator</em>. It gets triggered when DP fails. The
+initial topology consists of &quot;node-local&quot; destinations (Plan A) plus a
+backup list of neighbors (Plan B) to consult when a rank gets in
+trouble. If both plans fail, the topology generator invokes the
+<em>application-level</em> &quot;rebalancer&quot; to redraw neighborhood boundaries
+(Plan C). In the past, we used to call these components node- and
+application-level DPEs, but they aren&#x27;t directly involved in DP
+decisions, and we need maybe a clearer terminology.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="data-placement-solution-implementation">Data Placement Solution Implementation<a href="#data-placement-solution-implementation" class="hash-link" aria-label="Direct link to Data Placement Solution Implementation" title="Direct link to Data Placement Solution Implementation">​</a></h2>
+<p>LP solver</p>
+<ul>
+<li>Pick Google OR-Tools as a linear optimization tool to obtain
+a <em>placement schema</em>.<!-- -->
+<ul>
+<li>Minimize client I/O time.</li>
+</ul>
+</li>
+</ul>
+<p>Round-robin solver</p>
+<ul>
+<li>Pick the next <em>target</em> if the remaining capacity is greater or equal
+to the BLOB size, otherwise check the one after the next target
+until a target with enough capacity is found.</li>
+</ul>
+<p>Random solver</p>
+<ul>
+<li>Randomly pick a target from all targets which have the capacity
+greater or equal to the BLOB size.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="experimental-setup">Experimental Setup<a href="#experimental-setup" class="hash-link" aria-label="Direct link to Experimental Setup" title="Direct link to Experimental Setup">​</a></h2>
+<p>Scaling the number of BLOBs, 10 GB total BLOB size</p>
+<ul>
+<li>Small size BLOBs: random within the range of 4KB to 64KB</li>
+<li>Medium size BLOBs: random within the range of 64KB to 1MB</li>
+<li>Large size BLOBs: random within the range of 1MB to 4MB</li>
+<li>Extra large size BLOBs: random with the range 4MB to 64MB</li>
+<li>Huge size BLOBs: fixed 1GB</li>
+</ul>
+<p>Scaling the BLOB size, 1,000 and 8,192 BLOBs in total</p>
+<ul>
+<li>Fixed BLOB size of 4KB, 64KB, 1MB, 4MB, 64MB</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="experimental-results">Experimental Results<a href="#experimental-results" class="hash-link" aria-label="Direct link to Experimental Results" title="Direct link to Experimental Results">​</a></h2>
+<p>The DPE time of three different solvers with 10GB BLOBs in total.</p>
+<p><img loading="lazy" src="/spcai/assets/images/Picture1_11-39073f55ead305e54d26b2b807186055.jpg" width="360" height="216" class="img_ev3q"></p>
+<p><img loading="lazy" src="/spcai/assets/images/Picture2_1-f69c2af98fae3901d36a25d21d472764.jpg" width="360" height="216" class="img_ev3q"></p>
+<p><img loading="lazy" src="/spcai/assets/images/Picture3_1-39a88339cbe63ca25ee0724ee6299d49.jpg" width="360" height="216" class="img_ev3q"></p>
+<p>The associated I/O time of placement schema from three different solvers
+with 10GB BLOBs in total.</p>
+<p><img loading="lazy" src="/spcai/assets/images/Picture6_1-7d429d3b8b75eaaa90a68ec6e0cd8692.jpg" width="360" height="216" class="img_ev3q"></p>
+<p><img loading="lazy" src="/spcai/assets/images/Picture5_1-7b8f1d4f1bc3d69d054d170c0f451bc6.jpg" width="360" height="216" class="img_ev3q"></p>
+<p><img loading="lazy" src="/spcai/assets/images/Picture4_1-bdcb34596dad2684fa7489a9f7f6fe79.jpg" width="360" height="216" class="img_ev3q"></p>
+<p>The DPE time of three different solvers with 1,000 BLOBs in total.</p>
+<p><img loading="lazy" src="/spcai/assets/images/rr_dpe-ced03cee3e9901af631e3114a92b44f0.jpg" width="360" height="216" class="img_ev3q"></p>
+<p><img loading="lazy" src="/spcai/assets/images/random_dpe-11c7b726ae0dc701735a1e96486d1d1e.jpg" width="360" height="216" class="img_ev3q"></p>
+<p><img loading="lazy" src="/spcai/assets/images/or_dpe-ff86d9273ff956678a5c2bff993bda19.jpg" width="360" height="216" class="img_ev3q"></p>
+<p>The associated I/O time by placement schema by three different solvers
+with 1,000 BLOBs in total.</p>
+<p><img loading="lazy" src="/spcai/assets/images/rr_io-e0ca102ee0c5e9e2e15303dcb58c11a1.jpg" width="360" height="216" class="img_ev3q"></p>
+<p><img loading="lazy" src="/spcai/assets/images/random_io-e4637d3689e4881e30360ebf78458381.jpg" width="360" height="216" class="img_ev3q"></p>
+<p><img loading="lazy" src="/spcai/assets/images/ortools_io-2cba299e1b353b03c824eb11a917648f.jpg" width="360" height="216" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusions">Conclusions<a href="#conclusions" class="hash-link" aria-label="Direct link to Conclusions" title="Direct link to Conclusions">​</a></h2>
+<p>For a fixed total size of many BLOBs, DPE time is increasing with the
+number of BLOBs for all solvers.</p>
+<p>Round-robin and random solver can quickly calculate targets for a BLOB
+than LP solver, while not considering optimizing I/O time.</p>
+<p>LP solver is efficient when the search space (number of targets) is not
+too large (for example, less than 1,024).</p>
+<p>LP solver is a good candidate to place large size BLOBs, where the DPE
+time has less impact than the I/O time to the overall performance.</p>
+<p>One of the possible policies is that size 64KB could be a boundary for
+BLOB aggregation. BLOB size less than 64KB will be aggregated within a
+placement window and than placed together to mitigate DPE impact.</p>
+<p>Another possible policy is to use round-robin or random for small blobs
+and LP solver for large blobs.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/spcai/docs/hermes/components/buffering-target"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Buffering Target</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/spcai/docs/hermes/components/data-staging"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Data Staging</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#the-data-placement-problem" class="table-of-contents__link toc-highlight">The Data Placement Problem</a></li><li><a href="#the-data-placement-loop" class="table-of-contents__link toc-highlight">The Data Placement Loop</a></li><li><a href="#problem-to-solve-in-dpe" class="table-of-contents__link toc-highlight">Problem to Solve in DPE</a></li><li><a href="#data-placement-solution" class="table-of-contents__link toc-highlight">Data Placement Solution</a><ul><li><a href="#error-handling" class="table-of-contents__link toc-highlight">Error Handling</a></li></ul></li><li><a href="#data-placement-solution-implementation" class="table-of-contents__link toc-highlight">Data Placement Solution Implementation</a></li><li><a href="#experimental-setup" class="table-of-contents__link toc-highlight">Experimental Setup</a></li><li><a href="#experimental-results" class="table-of-contents__link toc-highlight">Experimental Results</a></li><li><a href="#conclusions" class="table-of-contents__link toc-highlight">Conclusions</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Gnosis Research Center</div><ul class="footer__items clean-list"><li class="footer__item">
+                  <p>
+                    Stuart Building <br>
+                    Room 112i and 010 <br>
+                    10 W. 31st Street <br>
+                    Chicago, Illinois 60616
+                  </p>
+                </li><li class="footer__item">
+                  <p>
+                    Email: <a href="mailto:grc@iit.edu" target="_blank" rel="noopener noreferrer">grc@iit.edu</a> <br>
+                    Phone: <a href="tel:3125676885" target="_blank" rel="noopener noreferrer">+1 312 567 6885</a>
+                  </p>
+                </li></ul></div><div class="col footer__col"><div class="footer__title">Featured Projects</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/spcai/research/projects/chronolog">ChronoLog</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/research/projects/labios">Labios</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/research/projects/coeus">Coeus</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/research/projects/hermes">Hermes</a></li></ul></div><div class="col footer__col"><div class="footer__title">Tutorials</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/spcai/docs/category/linux-introduction">Linux Introduction</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/docs/category/installing-hpc-software">Installing HPC Software</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/docs/category/important-environment-variables">Important Environment Variables</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/docs/category/c-introduction">C++ Introduction</a></li><li class="footer__item"><a class="footer__link-item" href="/spcai/docs/category/ares-research-cluster">Ares User Guide</a></li></ul></div><div class="col footer__col"><div class="footer__title">Links</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/grc-iit" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.linkedin.com/company/gnosis-research-center/" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC LinkedIn<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://twitter.com/grc_iit" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC X<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.youtube.com/channel/UCNtEyAt4_ckpIbX-gSv8sww" target="_blank" rel="noopener noreferrer" class="footer__link-item">GRC YouTube<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.iit.edu/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Illinois Tech<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="http://cs.iit.edu/~scs/" target="_blank" rel="noopener noreferrer" class="footer__link-item">SCS Lab<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 Gnosis Research Center (GRC).</div></div></div></footer></div>
+</body>
+</html>

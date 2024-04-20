@@ -1,0 +1,392 @@
+{
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": [
+        "G-9SXDPLSLB2"
+      ],
+      "anonymizeIP": false,
+      "id": "default"
+    }
+  },
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/spcai/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/spcai/docs",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "ares/ares-user-guide",
+              "path": "/spcai/docs/ares/ares-user-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ares/faq",
+              "path": "/spcai/docs/ares/faq",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chronolog/index",
+              "path": "/spcai/docs/chronolog/index",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/adapters",
+              "path": "/spcai/docs/hermes/adapters",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/building-hermes",
+              "path": "/spcai/docs/hermes/building-hermes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/components/buffer-organizer",
+              "path": "/spcai/docs/hermes/components/buffer-organizer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/components/buffer-pool",
+              "path": "/spcai/docs/hermes/components/buffer-pool",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/components/buffering-target",
+              "path": "/spcai/docs/hermes/components/buffering-target",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/components/data-placement",
+              "path": "/spcai/docs/hermes/components/data-placement",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/components/data-staging",
+              "path": "/spcai/docs/hermes/components/data-staging",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/components/distributed-metadata",
+              "path": "/spcai/docs/hermes/components/distributed-metadata",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/components/examples",
+              "path": "/spcai/docs/hermes/components/examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/components/prefetcher",
+              "path": "/spcai/docs/hermes/components/prefetcher",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/components/runtime",
+              "path": "/spcai/docs/hermes/components/runtime",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/components/tagging",
+              "path": "/spcai/docs/hermes/components/tagging",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/components/topology",
+              "path": "/spcai/docs/hermes/components/topology",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/configuration",
+              "path": "/spcai/docs/hermes/configuration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/containers",
+              "path": "/spcai/docs/hermes/containers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/deploying-hermes",
+              "path": "/spcai/docs/hermes/deploying-hermes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/developer-guide",
+              "path": "/spcai/docs/hermes/developer-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/doxygen",
+              "path": "/spcai/docs/hermes/doxygen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/faq",
+              "path": "/spcai/docs/hermes/faq",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/main-scenario",
+              "path": "/spcai/docs/hermes/main-scenario",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hermes/programming",
+              "path": "/spcai/docs/hermes/programming",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hpc-tutorials/cpp-introduction/hello-world",
+              "path": "/spcai/docs/hpc-tutorials/cpp-introduction/hello-world",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hpc-tutorials/important-environment-variables/cmake-module-path",
+              "path": "/spcai/docs/hpc-tutorials/important-environment-variables/cmake-module-path",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hpc-tutorials/important-environment-variables/cmake-prefix-path",
+              "path": "/spcai/docs/hpc-tutorials/important-environment-variables/cmake-prefix-path",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hpc-tutorials/important-environment-variables/cpath",
+              "path": "/spcai/docs/hpc-tutorials/important-environment-variables/cpath",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hpc-tutorials/important-environment-variables/java-home",
+              "path": "/spcai/docs/hpc-tutorials/important-environment-variables/java-home",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hpc-tutorials/important-environment-variables/ld-library-path",
+              "path": "/spcai/docs/hpc-tutorials/important-environment-variables/ld-library-path",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hpc-tutorials/important-environment-variables/ld-preload",
+              "path": "/spcai/docs/hpc-tutorials/important-environment-variables/ld-preload",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hpc-tutorials/important-environment-variables/library-path",
+              "path": "/spcai/docs/hpc-tutorials/important-environment-variables/library-path",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hpc-tutorials/important-environment-variables/path",
+              "path": "/spcai/docs/hpc-tutorials/important-environment-variables/path",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hpc-tutorials/important-environment-variables/pythonpath",
+              "path": "/spcai/docs/hpc-tutorials/important-environment-variables/pythonpath",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hpc-tutorials/installing-hpc-software/building-from-scratch",
+              "path": "/spcai/docs/hpc-tutorials/installing-hpc-software/building-from-scratch",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hpc-tutorials/installing-hpc-software/building-with-spack",
+              "path": "/spcai/docs/hpc-tutorials/installing-hpc-software/building-with-spack",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hpc-tutorials/linux-introduction/choosing-an-os",
+              "path": "/spcai/docs/hpc-tutorials/linux-introduction/choosing-an-os",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hpc-tutorials/linux-introduction/ssh",
+              "path": "/spcai/docs/hpc-tutorials/linux-introduction/ssh",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hpc-tutorials/linux-introduction/using-a-terminal",
+              "path": "/spcai/docs/hpc-tutorials/linux-introduction/using-a-terminal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/spcai/docs/index",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/building-package",
+              "path": "/spcai/docs/jarvis/jarvis-cd/building-package",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/custom-repos",
+              "path": "/spcai/docs/jarvis/jarvis-cd/custom-repos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/design-motivation",
+              "path": "/spcai/docs/jarvis/jarvis-cd/design-motivation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/future-work",
+              "path": "/spcai/docs/jarvis/jarvis-cd/future-work",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/getting-started",
+              "path": "/spcai/docs/jarvis/jarvis-cd/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/index",
+              "path": "/spcai/docs/jarvis/jarvis-cd/index",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/cm1",
+              "path": "/spcai/docs/jarvis/jarvis-cd/packages/cm1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/deepdrivemd",
+              "path": "/spcai/docs/jarvis/jarvis-cd/packages/deepdrivemd",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/gadget2",
+              "path": "/spcai/docs/jarvis/jarvis-cd/packages/gadget2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/gadget4",
+              "path": "/spcai/docs/jarvis/jarvis-cd/packages/gadget4",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/lammps",
+              "path": "/spcai/docs/jarvis/jarvis-cd/packages/lammps",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/nyx",
+              "path": "/spcai/docs/jarvis/jarvis-cd/packages/nyx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/openfoam",
+              "path": "/spcai/docs/jarvis/jarvis-cd/packages/openfoam",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/vpic",
+              "path": "/spcai/docs/jarvis/jarvis-cd/packages/vpic",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/vpic-kokkos",
+              "path": "/spcai/docs/jarvis/jarvis-cd/packages/vpic-kokkos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/packages/wrf",
+              "path": "/spcai/docs/jarvis/jarvis-cd/packages/wrf",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/python-api",
+              "path": "/spcai/docs/jarvis/jarvis-cd/python-api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/resource-graph",
+              "path": "/spcai/docs/jarvis/jarvis-cd/resource-graph",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/schedulers",
+              "path": "/spcai/docs/jarvis/jarvis-cd/schedulers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-cd/virtualization",
+              "path": "/spcai/docs/jarvis/jarvis-cd/virtualization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-util/argument-parsing",
+              "path": "/spcai/docs/jarvis/jarvis-util/argument-parsing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-util/builtin-wrappers",
+              "path": "/spcai/docs/jarvis/jarvis-util/builtin-wrappers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-util/hostfile",
+              "path": "/spcai/docs/jarvis/jarvis-util/hostfile",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-util/index",
+              "path": "/spcai/docs/jarvis/jarvis-util/index",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "jarvis/jarvis-util/program-execution",
+              "path": "/spcai/docs/jarvis/jarvis-util/program-execution",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/linux-introduction",
+              "path": "/spcai/docs/category/linux-introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/installing-hpc-software",
+              "path": "/spcai/docs/category/installing-hpc-software",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/important-environment-variables",
+              "path": "/spcai/docs/category/important-environment-variables",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/c-introduction",
+              "path": "/spcai/docs/category/c-introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/hermes",
+              "path": "/spcai/docs/category/hermes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/ares-research-cluster",
+              "path": "/spcai/docs/category/ares-research-cluster",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/spcai/docs/index",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

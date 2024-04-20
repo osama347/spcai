@@ -1,0 +1,23 @@
+{
+  "id": "hpc-tutorials/important-environment-variables/path",
+  "title": "PATH",
+  "description": "The PATH variable is used to locate executable objects. For example:",
+  "source": "@site/docs/02-hpc-tutorials/03-important-environment-variables/path.md",
+  "sourceDirName": "02-hpc-tutorials/03-important-environment-variables",
+  "slug": "/hpc-tutorials/important-environment-variables/path",
+  "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/path",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "LIBRARY_PATH",
+    "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/library-path"
+  },
+  "next": {
+    "title": "PYTHONPATH",
+    "permalink": "/spcai/docs/hpc-tutorials/important-environment-variables/pythonpath"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/spcai/network",
+  "source": "@site/src/pages/network.mdx",
+  "title": "Network",
+  "description": "We work with several Research Labs, Universities and Industry Leaders across the USA and around the world.",
+  "frontMatter": {
+    "title": "Network"
+  },
+  "unlisted": false
+}

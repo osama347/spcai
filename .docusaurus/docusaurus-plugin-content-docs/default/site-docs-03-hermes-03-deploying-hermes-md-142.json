@@ -1,0 +1,24 @@
+{
+  "id": "hermes/deploying-hermes",
+  "title": "Deploying Hermes",
+  "description": "Configuring + Deploying Hermes",
+  "source": "@site/docs/03-hermes/03-deploying-hermes.md",
+  "sourceDirName": "03-hermes",
+  "slug": "/hermes/deploying-hermes",
+  "permalink": "/spcai/docs/hermes/deploying-hermes",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Building Hermes",
+    "permalink": "/spcai/docs/hermes/building-hermes"
+  },
+  "next": {
+    "title": "Configuration",
+    "permalink": "/spcai/docs/hermes/configuration"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "hpc-tutorials/installing-hpc-software/building-from-scratch",
+  "title": "Building From Scratch",
+  "description": "When spack fails, there aren't many options but to build the code from scratch. This is typically an arduous,",
+  "source": "@site/docs/02-hpc-tutorials/02-installing-hpc-software/02-building-from-scratch.md",
+  "sourceDirName": "02-hpc-tutorials/02-installing-hpc-software",
+  "slug": "/hpc-tutorials/installing-hpc-software/building-from-scratch",
+  "permalink": "/spcai/docs/hpc-tutorials/installing-hpc-software/building-from-scratch",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Building With Spack",
+    "permalink": "/spcai/docs/hpc-tutorials/installing-hpc-software/building-with-spack"
+  },
+  "next": {
+    "title": "Important Environment Variables",
+    "permalink": "/spcai/docs/category/important-environment-variables"
+  }
+}

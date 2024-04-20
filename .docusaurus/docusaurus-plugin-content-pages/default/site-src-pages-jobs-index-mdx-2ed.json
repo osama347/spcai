@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/spcai/jobs/",
+  "source": "@site/src/pages/jobs/index.mdx",
+  "title": "Job Opportunities",
+  "description": "The Gnosis Research Center (GRC) is looking to recruit several people to work on research projects",
+  "frontMatter": {
+    "title": "Job Opportunities"
+  },
+  "unlisted": false
+}

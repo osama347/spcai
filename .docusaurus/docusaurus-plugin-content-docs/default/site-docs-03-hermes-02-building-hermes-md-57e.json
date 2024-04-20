@@ -1,0 +1,24 @@
+{
+  "id": "hermes/building-hermes",
+  "title": "Building Hermes",
+  "description": "Dependencies",
+  "source": "@site/docs/03-hermes/02-building-hermes.md",
+  "sourceDirName": "03-hermes",
+  "slug": "/hermes/building-hermes",
+  "permalink": "/spcai/docs/hermes/building-hermes",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Main Scenario",
+    "permalink": "/spcai/docs/hermes/main-scenario"
+  },
+  "next": {
+    "title": "Deploying Hermes",
+    "permalink": "/spcai/docs/hermes/deploying-hermes"
+  }
+}

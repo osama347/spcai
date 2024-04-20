@@ -1,0 +1,24 @@
+{
+  "id": "jarvis/jarvis-cd/building-package",
+  "title": "Building a Package",
+  "description": "This guide documents how to extend the set of applications that Jarvis is",
+  "source": "@site/docs/05-jarvis/02-jarvis-cd/06-building-package.md",
+  "sourceDirName": "05-jarvis/02-jarvis-cd",
+  "slug": "/jarvis/jarvis-cd/building-package",
+  "permalink": "/spcai/docs/jarvis/jarvis-cd/building-package",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Custom Repos",
+    "permalink": "/spcai/docs/jarvis/jarvis-cd/custom-repos"
+  },
+  "next": {
+    "title": "Python API",
+    "permalink": "/spcai/docs/jarvis/jarvis-cd/python-api"
+  }
+}

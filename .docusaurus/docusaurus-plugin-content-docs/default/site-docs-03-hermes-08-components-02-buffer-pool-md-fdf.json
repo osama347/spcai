@@ -1,0 +1,24 @@
+{
+  "id": "hermes/components/buffer-pool",
+  "title": "Buffer Pool",
+  "description": "The main idea behind the Buffer Pool is to avoid the runtime",
+  "source": "@site/docs/03-hermes/08-components/02-buffer-pool.md",
+  "sourceDirName": "03-hermes/08-components",
+  "slug": "/hermes/components/buffer-pool",
+  "permalink": "/spcai/docs/hermes/components/buffer-pool",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Buffer Organizer",
+    "permalink": "/spcai/docs/hermes/components/buffer-organizer"
+  },
+  "next": {
+    "title": "Buffering Target",
+    "permalink": "/spcai/docs/hermes/components/buffering-target"
+  }
+}

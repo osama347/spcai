@@ -1,0 +1,22 @@
+{
+  "id": "ares/faq",
+  "title": "FAQ",
+  "description": "Basics",
+  "source": "@site/docs/06-ares/02-faq.mdx",
+  "sourceDirName": "06-ares",
+  "slug": "/ares/faq",
+  "permalink": "/spcai/docs/ares/faq",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "FAQ"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "User Guide",
+    "permalink": "/spcai/docs/ares/ares-user-guide"
+  }
+}
